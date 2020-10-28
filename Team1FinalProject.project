@@ -90,6 +90,14 @@
             "Goals",
             "Goals.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Balance",
+            "Balance.json"
+          ]
         }
       ],
       "configxml": null,
@@ -136,11 +144,13 @@
       "pathTo_bootstrap": "",
       "pathTo_jqWidgets": "https://jqwidgets.com/public/jqwidgets/",
       "phoneGapBuildCounter": "0",
+      "phoneGapBuildID": "",
       "phoneGapIcon": "",
       "phoneGapSplash": "",
       "phoneGapStatusBarColor": "#000000",
       "phoneGapStatusBarOverlay": "false",
       "phoneGapStatusBarStyle": "lightcontent",
+      "phoneGapVersion": "",
       "rtl": "",
       "script": null,
       "statusbar": "black-translucent",
