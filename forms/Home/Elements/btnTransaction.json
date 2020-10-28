@@ -24,12 +24,12 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": 23,
+  "height": 33,
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "btnTransaction",
-  "left": 204,
+  "left": 123,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 433,
+  "top": 423,
   "value": "Transaction",
-  "width": 47
+  "width": 77
 }

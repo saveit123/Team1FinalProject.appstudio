@@ -1,3 +1,3 @@
-btnNext7.onclick=function(){
+btnGoalsBack.onclick=function(){
   ChangeForm(Home)
 }

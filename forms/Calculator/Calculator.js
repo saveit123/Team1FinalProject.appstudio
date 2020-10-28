@@ -1,3 +1,3 @@
-btnNext5.onclick=function(){
-  ChangeForm(Transaction)
+btnCalculatorBack.onclick=function(){
+  ChangeForm(Home)
 }
