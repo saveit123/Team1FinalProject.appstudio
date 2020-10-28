@@ -1,3 +1,4 @@
+/*
 req = ""
 query = ""
 results = ""
@@ -33,6 +34,8 @@ btnAddCustomer.onclick = function() {
   // change value of text area
   txtAdd.value = customersAdd
 }
-btnNextPage2.onclick=function(){
-  ChangeForm(customerUpdate)
+*/
+
+btnReturnLogin.onclick=function(){
+  ChangeForm(LoginPage)
 }

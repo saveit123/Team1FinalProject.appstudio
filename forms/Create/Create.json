@@ -16,7 +16,7 @@
         "forms",
         "Create",
         "Elements",
-        "Textarea1.json"
+        "txtCreateConfirm.json"
       ]
     },
     {
@@ -25,7 +25,52 @@
         "forms",
         "Create",
         "Elements",
-        "Button1.json"
+        "btnReturnLogin.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Create",
+        "Elements",
+        "inptUsernameCreate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Create",
+        "Elements",
+        "inptPasswordCreate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Create",
+        "Elements",
+        "lblCreate.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Create",
+        "Elements",
+        "inptEmail.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Create",
+        "Elements",
+        "btnCreate.json"
       ]
     }
   ],
@@ -44,7 +89,7 @@
   "onkeypress": "",
   "onresize": "",
   "onshow": "",
-  "openMode": "none",
+  "openMode": "block",
   "parentForm": "",
   "position": "absolute",
   "script": null,
