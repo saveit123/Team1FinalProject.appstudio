@@ -25,7 +25,43 @@
         "forms",
         "Home",
         "Elements",
-        "btnNextPage.json"
+        "btnBalance.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Home",
+        "Elements",
+        "btnGoals.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Home",
+        "Elements",
+        "btnTransaction.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Home",
+        "Elements",
+        "btnCalculator.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Home",
+        "Elements",
+        "btnCalendar.json"
       ]
     }
   ],
