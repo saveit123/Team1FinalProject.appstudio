@@ -98,6 +98,14 @@
             "Balance",
             "Balance.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Create",
+            "Create.json"
+          ]
         }
       ],
       "configxml": null,

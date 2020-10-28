@@ -27,6 +27,33 @@
         "Elements",
         "lblLoginPage.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "LoginPage",
+        "Elements",
+        "inptUsername.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "LoginPage",
+        "Elements",
+        "inptPassword.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "LoginPage",
+        "Elements",
+        "lblCreateAccount.json"
+      ]
     }
   ],
   "class": "",
