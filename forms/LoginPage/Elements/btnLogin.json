@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnLogin",
-  "left": 124,
+  "left": 120,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 266,
+  "top": 315,
   "value": "Login",
   "width": "auto"
 }
