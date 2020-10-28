@@ -14,27 +14,9 @@
       "!type": "External",
       "file": [
         "forms",
-        "Goals",
+        "Balance",
         "Elements",
-        "lblGoals.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Goals",
-        "Elements",
-        "btnNext7.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Goals",
-        "Elements",
-        "btnBalanceBackCopy.json"
+        "btnBalanceBack.json"
       ]
     }
   ],
@@ -44,7 +26,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "Goals",
+  "id": "Balance",
   "language": "JavaScript",
   "left": "0",
   "locked": false,

@@ -27,6 +27,15 @@
         "Elements",
         "lblTransaction.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "btnBalanceBackCopy2.json"
+      ]
     }
   ],
   "class": "",
