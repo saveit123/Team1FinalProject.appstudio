@@ -98,6 +98,14 @@
             "Balance",
             "Balance.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Create",
+            "Create.json"
+          ]
         }
       ],
       "configxml": null,
@@ -119,7 +127,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "LoginPage",
+      "firstform": "Home",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
