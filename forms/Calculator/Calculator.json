@@ -27,6 +27,15 @@
         "Elements",
         "lblCalculator.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Calculator",
+        "Elements",
+        "btnBalanceBackCopy3.json"
+      ]
     }
   ],
   "class": "",
