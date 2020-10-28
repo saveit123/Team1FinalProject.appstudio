@@ -1,22 +1,27 @@
-/*
+
 req = ""
 query = ""
 results = ""
 
-btnAddCustomer.onclick = function() {
-  query = "INSERT INTO customer VALUES ('17','Jesse Antiques','1113 F St','Omaha','NE','68178')"
+
+btnCreate.onclick = function() {
+  let username =  inptUsernameCreate.value
+  let password = inptPasswordCreate.value
+  let email = inptEmail.value
+  query = "INSERT INTO user VALUES ('username, email, password')"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=kmh76825&query=" + query)
 
   if (req.status == 200) { //transit worked.
     if (req.responseText == 500) { // means the insert succeeded
-      console.log("You have successfully added the Customer!")
+      console.log("You have successfully added the user!")
     } else
-      console.log("There was a problem with adding the Customer to the database.")
+      console.log("There was a problem with adding the user to the database.")
   } else {
     // transit error
     console.log("Error: " + req.status);
   }
 
+/*
   query = `SELECT name from customer ORDER BY customer_id DESC`
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=kmh76825&query=" + query)
 
