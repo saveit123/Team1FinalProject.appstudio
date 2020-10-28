@@ -1,3 +1,3 @@
-btnNext6.onclick=function(){
-  ChangeForm(Goals)
+btnTransactionBack.onclick=function(){
+  ChangeForm(Home)
 }
