@@ -27,6 +27,15 @@
         "Elements",
         "btnNext7.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "btnBalanceBackCopy.json"
+      ]
     }
   ],
   "class": "",
