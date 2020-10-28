@@ -24,12 +24,12 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": "auto",
+  "height": 22,
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "btnCalendar",
-  "left": 110,
+  "left": 212,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 424,
+  "top": 435,
   "value": "Calendar",
-  "width": "auto"
+  "width": 37
 }
