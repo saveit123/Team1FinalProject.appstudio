@@ -1,3 +1,3 @@
 btnNext1.onclick=function(){
-  ChangeForm(Calendar)
+  ChangeForm(Home)
 }
