@@ -1,3 +1,6 @@
+btnReturnLogin.onclick=function(){
+  ChangeForm(LoginPage)
+}
 req = ""
 query = ""
 results = ""
@@ -23,6 +26,4 @@ console.log(req.status)
     console.log("Error: " + req.status);
   }
 }
-btnReturnLogin.onclick=function(){
-  ChangeForm(LoginPage)
-}
+

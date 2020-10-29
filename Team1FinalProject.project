@@ -31,6 +31,14 @@
           "!type": "External",
           "file": [
             "forms",
+            "Create",
+            "Create.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
             "Home",
             "Home.json"
           ]
@@ -98,14 +106,6 @@
             "Balance",
             "Balance.json"
           ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "Create",
-            "Create.json"
-          ]
         }
       ],
       "configxml": null,
@@ -170,7 +170,7 @@
       "useStrict": "",
       "version": "1.0.0",
       "viewportFit": "cover",
-      "voltAppId": "",
+      "voltAppId": "XZC9vJ",
       "voltDomain": ""
     }
   ],
