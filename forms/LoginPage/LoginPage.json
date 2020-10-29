@@ -54,6 +54,15 @@
         "Elements",
         "lblCreateAccount.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "LoginPage",
+        "Elements",
+        "lblError.json"
+      ]
     }
   ],
   "class": "",
