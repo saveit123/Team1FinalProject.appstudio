@@ -26,31 +26,25 @@ btnLogin.onclick=function() {
                         if ((inputUsername == results1[i]) && (inputPassword == results2[i])) {
                             valid = true;
                             break;  
-        }
-    }
-    if (valid) {
-        alert("Valid Credentials")
-            ChangeForm(Home);
-    } else {
-        alert("Invalid Credentials")
-    }       
-}
-   } else { 
-  lblError.hidden = false
-  lblError.textContent = "That login is not recognized. Please try again."
-  inptUsername.value = ""
-  inptPassword.value = ""
-  }
+        					}
+						}
+    						if (valid) {
+							alert("Valid Credentials")
+							ChangeForm(Home);
+    						} else {
+        					alert("Invalid Credentials")
+    						}       
+							}			
+   		} else { 
+			// transit error
+    		console.log(`Error: ${req.status}`);
+			}
   } else {
-    // transit error
-    console.log(`Error: ${req.status}`);
+   		// transit error
+    	console.log(`Error: ${req.status}`);
   }
 
 }
- } else {
-    // transit error
-    console.log(`Error: ${req.status}`);
-  }
 
 lblCreateAccount.onclick=function(){
   ChangeForm(Create)
