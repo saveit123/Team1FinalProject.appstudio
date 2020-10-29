@@ -1,3 +1,4 @@
+
 req = ""
 query = ""
 results = ""
@@ -17,12 +18,12 @@ console.log(req.status)
   console.log(req.responseText)
     if (req.responseText == 500) { // means the insert succeeded
       console.log("You have successfully added the user!")
+        txtCreateConfirm.value =  "Your account was successfully created.  Procede to Login page."
     } else
       console.log("There was a problem with adding the user to the database.")
   } else {
     // transit error
     console.log("Error: " + req.status);
-     txtCreateConfirm.value =  "Your account was successfully created.  Procede to Login page."
   }
 }
 btnReturnLogin.onclick=function(){
