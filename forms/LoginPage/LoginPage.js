@@ -3,10 +3,10 @@ let req = ""
 let query = ""
 let results = ""
 
-btnSubmit.onclick=function() {
+btnLogin.onclick=function() {
   let inputUsername = inptUsername.value
   let inputPassword = inptPassword.value
- query = `SELECT `username`,`password` from user`
+ query = `SELECT  username, password FROM user`
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   if (req.status == 200) { //transit worked.
     console.log(req.status)
