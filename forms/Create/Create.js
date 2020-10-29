@@ -1,9 +1,6 @@
-
 req = ""
 query = ""
 results = ""
-let pw = "14421442Kh"
-let userName = `'kmh76825`
 
 btnCreate.onclick = function() {
   let newUsername =  inptUsernameCreate.value
