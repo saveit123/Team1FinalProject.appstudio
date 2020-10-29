@@ -3,40 +3,32 @@ let req = ""
 let query = ""
 let results = ""
 
-/*
-btnLogin.onclick=function(){
-  ChangeForm(Home)
-}
-
-lblCreateAccount.onclick=function(){
-  ChangeForm(Create)
-}
-
-btnSubmit.onclick=function(){
-  let username = inptUsername.value
-  let password = inptPassword.value
-  let login = username+pass
-  if (login == )
-    ChangeForm(Home)
-  else { 
-    lblError.hidden = false
-    lblError.textContent = "That login is not recognised. Please try again."
-    inptUsername.value = ""
-    inptPassword.value = ""
-  }
-}
-
+btnSubmit.onclick=function() {
+  let inputUsername = inptUsername.value
+  let inputPassword = inptPassword.value
  query = `SELECT `username`,`password` from user`
-  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=kmh76825&query=" + query)
-
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   if (req.status == 200) { //transit worked.
-    //save the sate of the customer 
+    console.log(req.status)
+    console.log(req.responseText)
     results = JSON.parse(req.responseText)
-    let userandpass = results
+    console.log(results)
+if (results.includes(inputUsername && inputPassword)) {
+    ChangeForm(Home)
+   } else { 
+  lblError.hidden = false
+  lblError.textContent = "That login is not recognized. Please try again."
+  inptUsername.value = ""
+  inptPassword.value = ""
+  }
   } else {
     // transit error
     console.log(`Error: ${req.status}`);
   }
 
 }
-*/
+
+
+lblCreateAccount.onclick=function(){
+  ChangeForm(Create)
+}
