@@ -1,8 +1,9 @@
 let pw = "14421442Kh"
 let userName = `'kmh76825`
-let req = ""
-let query = ""
-let results = ""
+req = ""
+query = ""
+usernames = ""
+passwords=""
 var valid = false;
 
 btnLogin.onclick=function() {
@@ -47,14 +48,6 @@ btnLogin.onclick=function() {
 			}
   } 
 
-/*
-else {
-   		// transit error
-    	console.log(`Error: ${req.status}`);
-  }
-
-}
-*/
 lblCreateAccount.onclick=function(){
   ChangeForm(Create)
 }
