@@ -23,6 +23,14 @@
           "!type": "External",
           "file": [
             "forms",
+            "Create",
+            "Create.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
             "LoginPage",
             "LoginPage.json"
           ]
@@ -33,14 +41,6 @@
             "forms",
             "Home",
             "Home.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "Create",
-            "Create.json"
           ]
         },
         {
