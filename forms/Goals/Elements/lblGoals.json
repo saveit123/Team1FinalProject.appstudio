@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblGoals",
   "labelStyle": "text",
-  "left": 135,
+  "left": 136,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 88,
+  "top": 42,
   "value": "Goals",
   "width": "auto"
 }

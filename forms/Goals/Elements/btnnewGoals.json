@@ -28,14 +28,14 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "btnNext7",
-  "left": 250,
+  "id": "btnnewGoals",
+  "left": 135,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
   "mRight": "",
   "mTop": "",
-  "onclick": "btnNext7.onclick()",
+  "onclick": "btnnewGoals.onclick()",
   "onmousedown": "",
   "onmousemove": "",
   "onmouseout": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 407,
-  "value": "Next",
-  "width": "auto"
+  "top": 272,
+  "value": "See your goals!",
+  "width": 183
 }

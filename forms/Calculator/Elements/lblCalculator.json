@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblCalculator",
   "labelStyle": "text",
-  "left": 118,
+  "left": 107,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 85,
+  "top": 69,
   "value": "Calculator",
   "width": "auto"
 }
