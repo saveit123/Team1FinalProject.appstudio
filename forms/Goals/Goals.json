@@ -36,6 +36,42 @@
         "Elements",
         "btnGoalsBack.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "drpBudget.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "inptAmount.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "btnnewGoals.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "lblBudgetResult.json"
+      ]
     }
   ],
   "class": "",
@@ -52,7 +88,7 @@
   "onhide": "",
   "onkeypress": "",
   "onresize": "",
-  "onshow": "",
+  "onshow": "Goals.onshow()",
   "openMode": "none",
   "parentForm": "",
   "position": "absolute",
