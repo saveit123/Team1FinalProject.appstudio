@@ -36,6 +36,24 @@
         "Elements",
         "btnCalculatorBack.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Calculator",
+        "Elements",
+        "txtCal.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Calculator",
+        "Elements",
+        "btnCal.json"
+      ]
     }
   ],
   "class": "",

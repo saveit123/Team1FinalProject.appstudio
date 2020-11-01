@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnNext5",
-  "left": 234,
+  "left": 238,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 386,
+  "top": 411,
   "value": "Next",
   "width": "auto"
 }
