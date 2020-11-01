@@ -1,4 +1,4 @@
-
+/*
 btnGoalsBack.onclick=function(){
   ChangeForm(Home)
 }
@@ -16,3 +16,4 @@ Goals.onshow=function(){
 drpBudget.onclick=function(){
   
 }
+*/
