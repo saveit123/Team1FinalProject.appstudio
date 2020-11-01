@@ -1,4 +1,4 @@
-
+/*
 btnGoalsBack.onclick=function(){
   ChangeForm(Home)
 }
@@ -16,3 +16,4 @@ btnnewGoals.onclick=function(){
   inptAmount = 
   
 }
+*/
