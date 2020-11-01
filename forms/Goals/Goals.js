@@ -12,8 +12,8 @@ Goals.onshow=function(){
           results1 = JSON.parse(req.responseText)
 }
 
-btnnewGoals.onclick=function(){
-  inptAmount = 
+
+drpBudget.onclick=function(){
   
 }
 */

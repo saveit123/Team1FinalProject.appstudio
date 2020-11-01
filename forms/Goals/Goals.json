@@ -72,6 +72,15 @@
         "Elements",
         "lblBudgetResult.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "btnseeGoals.json"
+      ]
     }
   ],
   "class": "",

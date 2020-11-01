@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnnewGoals",
-  "left": 135,
+  "left": 134,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 272,
+  "top": 273,
   "value": "See your goals!",
   "width": 183
 }
