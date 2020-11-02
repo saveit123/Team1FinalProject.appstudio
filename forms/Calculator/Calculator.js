@@ -16,7 +16,6 @@ function onXHRLoad() {
 }
 
 
-/*
 function callAPI(URL) {
     var xhttp = new XMLHttpRequest();
     
@@ -29,4 +28,4 @@ btnCal.onclick=function(){
    // call the API calling code above
   callAPI(requestURL)
 }
-*/
+
