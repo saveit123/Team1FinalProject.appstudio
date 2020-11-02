@@ -23,16 +23,16 @@
           "!type": "External",
           "file": [
             "forms",
-            "Create",
-            "Create.json"
+            "LoginPage",
+            "LoginPage.json"
           ]
         },
         {
           "!type": "External",
           "file": [
             "forms",
-            "LoginPage",
-            "LoginPage.json"
+            "Create",
+            "Create.json"
           ]
         },
         {
