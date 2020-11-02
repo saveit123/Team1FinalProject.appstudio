@@ -1,4 +1,4 @@
-/*
+
 btnGoalsBack.onclick=function(){
   ChangeForm(Home)
 }
@@ -6,33 +6,36 @@ btnGoalsBack.onclick=function(){
 req = ""
 query = ""
 results = ""
+let goals = ['']
 
-/*
-let customerInfo = ['']
-customerSelect.onshow = function() {
-drppickUser.clear()
-query = "SELECT * FROM customer"
-req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=baj54492&pass=GOJAYS923&database=baj54492&query=" + query)
-if (req.status == 200) {
-results = JSON.parse(req.responseText)
-console.log(results)
-customerInfo = results
-if (results.length == 0)
-NSB.MsgBox(`There are no customers in the database.`)
-else {
-for (i = 0; i < results.length; i++)
-drpCustomers.addItem(results[i][1])
+Goals.onshow = function() {
+  drpviewGoals.clear()
+  query = "SELECT * FROM weekly_goal"
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+  if (req.status == 200) {
+  results = JSON.parse(req.responseText)
+  console.log(results)
+  goals = results
+  }
+if (results.length == 0) {
+  console.log(`There are no goals in the database.`)
+ } else {
+  for (i = 0; i < results.length; i++)
+drpviewGoals.addItem(results[i][1])
 }
-} else {
-NSB.MsgBox("Error code: " + req.status)
 }
-drpCustomers.onclick = function(s) {
+
+
+
+
+drpviewGoals.onclick = function(s) {
 if (typeof(s) == "object") {
 return
 } else {
-drpCustomers.value = s
+drpviewGoals.value = s
 let message = ""
-*/
+}
+}
 /*
 for (i = 0; i < customerInfo.length; i++)
 if (s == customerInfo[i][1])
@@ -61,9 +64,9 @@ Goals.onshow=function(){
 drpBudget.onclick=function(){
   
 }
-<<<<<<< HEAD
 
 */
+
 btnWeeklyGoal.onclick = function() {
   let newGoal =  inptAmount.value
   query = `INSERT INTO weekly_goal (user_id, amount) 
@@ -104,6 +107,8 @@ console.log(req.status)
   }
 }
 
+
+/*
 customerSelect.onshow=function(){
   drpCustomer.clear()
   query = "SELECT name from customer"
@@ -123,7 +128,7 @@ customerSelect.onshow=function(){
   }
 }
 
-
+*/
 
 
 
@@ -163,7 +168,3 @@ drpviewGoals.onclick=function(s){
   }  
 }
 */
-}
-=======
-*/
->>>>>>> 305c35c83ac5588780c050716d3488c5b2aa3d20
