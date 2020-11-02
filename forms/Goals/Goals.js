@@ -1,4 +1,4 @@
-
+/*
 btnGoalsBack.onclick=function(){
   ChangeForm(Home)
 }
@@ -61,6 +61,7 @@ Goals.onshow=function(){
 drpBudget.onclick=function(){
   
 }
+<<<<<<< HEAD
 
 */
 btnWeeklyGoal.onclick = function() {
@@ -163,3 +164,6 @@ drpviewGoals.onclick=function(s){
 }
 */
 }
+=======
+*/
+>>>>>>> 305c35c83ac5588780c050716d3488c5b2aa3d20
