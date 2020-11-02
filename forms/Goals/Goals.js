@@ -25,8 +25,22 @@ drpviewGoals.addItem(results[i][1])
 }
 }
 
-
-
+Goals.onshow = function() {
+  drpviewGoals.clear()
+  query = "SELECT * FROM monthlu_goal"
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+  if (req.status == 200) {
+  results = JSON.parse(req.responseText)
+  console.log(results)
+  goals = results
+  }
+if (results.length == 0) {
+  console.log(`There are no goals in the database.`)
+ } else {
+  for (i = 0; i < results.length; i++)
+drpviewGoals.addItem(results[i][1])
+}
+}
 
 drpviewGoals.onclick = function(s) {
 if (typeof(s) == "object") {
@@ -107,28 +121,6 @@ console.log(req.status)
   }
 }
 
-
-/*
-customerSelect.onshow=function(){
-  drpCustomer.clear()
-  query = "SELECT name from customer"
-  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=kmh76825&query=" + query)
-
-  if (req.status == 200) { //transit worked.
-    customerSelectR = JSON.parse(req.responseText)
-    console.log(customerSelectR)
-  }
-  if (customerSelectR.length == 0) {
-    // if no customers in a table brings back this message
-    NSB.MsgBox("There are no customers found.")
-  } else {
-    //a loop that adds all the customers in the array to the dropdown.
-    for (i = 0; i <= customerSelectR.length - 1; i++)
-      drpCustomer.addItem(customerSelectR[i])
-  }
-}
-
-*/
 
 
 
