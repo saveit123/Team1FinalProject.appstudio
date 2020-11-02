@@ -3,7 +3,7 @@ let userName = `'kmh76825`
 req = ""
 query = ""
 results = ""
-let valid =  ""
+var valid =  false;
 
 btnLogin.onclick=function() {
   let inputUsername = inptUsername.value
@@ -29,7 +29,8 @@ btnLogin.onclick=function() {
                             break; 
 						}
 						}
-					}
+                                                }
+					
 				
 						
 						
@@ -45,7 +46,9 @@ btnLogin.onclick=function() {
                                                     ChangeForm(Home);
                                                   /* } else { 
                                                     alert(`transit error`)
-                                                    } */
+        
+                                             } */
+                                             
     						} else {
         					alert("Invalid Credentials")
     						} 
