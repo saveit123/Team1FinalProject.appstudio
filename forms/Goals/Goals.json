@@ -43,7 +43,7 @@
         "forms",
         "Goals",
         "Elements",
-        "drpBudget.json"
+        "drppickUser.json"
       ]
     },
     {
@@ -61,7 +61,7 @@
         "forms",
         "Goals",
         "Elements",
-        "btnnewGoals.json"
+        "btnWeeklyGoal.json"
       ]
     },
     {
@@ -79,7 +79,16 @@
         "forms",
         "Goals",
         "Elements",
-        "btnseeGoals.json"
+        "btnMonthlyGoal.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "drpviewGoals.json"
       ]
     }
   ],

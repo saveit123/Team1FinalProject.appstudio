@@ -24,12 +24,12 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": "auto",
+  "height": 34,
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "btnnewGoals",
-  "left": 134,
+  "id": "btnWeeklyGoal",
+  "left": 20,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 273,
-  "value": "See your goals!",
-  "width": 183
+  "top": 218,
+  "value": "Weekly",
+  "width": 81
 }
