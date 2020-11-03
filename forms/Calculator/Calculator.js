@@ -1,8 +1,24 @@
 btnCalculatorBack.onclick=function(){
   ChangeForm(Home)
 }
+/*
+var data = null;
+function callAPI(URL) {
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+}
+xhr.addEventListener("readystatechange", function () {
+    if (this.readyState === this.DONE) {
+         console.log(this.responseText);
+   }
+});
 
+xhr.open("GET", "https://simple-calculator.p.rapidapi.com/");
+xhr.setRequestHeader("x-rapidapi-host", "simple-calculator.p.rapidapi.com");
+xhr.setRequestHeader("x-rapidapi-key", "1e3338ccbbmshf93f75dd05e0ce6p1ebcbajsnf5568754e9d4");
 
+xhr.send(data);
+*/
 /*
 let requestURL = "simplecalculatorbygkservice.herokuapp.com/api/agritaskcalculator/result/{expression}?customerId=111980&productId=1504795"
 function onXHRLoad() {
