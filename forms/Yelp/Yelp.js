@@ -2,7 +2,7 @@ btnNext1.onclick=function(){
   ChangeForm(Home)
 }
 
-let requestURL = "https://api.yelp.com/v3/businesses/search?location=68131&type=restaurant"
+ //let requestURL = "https://api.yelp.com/v3/businesses/search?location=68131&type=restaurant"
 function onXHRLoad() {
     let message = ""
     let apiData = JSON.parse(this.responseText)
