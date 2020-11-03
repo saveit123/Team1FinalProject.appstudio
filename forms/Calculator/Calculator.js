@@ -1,6 +1,8 @@
 btnCalculatorBack.onclick=function(){
   ChangeForm(Home)
 }
+
+
 /*
 let requestURL = "simplecalculatorbygkservice.herokuapp.com/api/agritaskcalculator/result/{expression}?customerId=111980&productId=1504795"
 function onXHRLoad() {
@@ -16,7 +18,6 @@ function onXHRLoad() {
 }
 
 
-/*
 function callAPI(URL) {
     var xhttp = new XMLHttpRequest();
     
@@ -24,6 +25,7 @@ function callAPI(URL) {
     xhttp.addEventListener('load', onXHRLoad)
     xhttp.send()
 }
+
 
 btnCal.onclick=function(){
    // call the API calling code above
@@ -48,3 +50,4 @@ xhr.setRequestHeader("x-rapidapi-key", "1e3338ccbbmshf93f75dd05e0ce6p1ebcbajsnf5
 
 xhr.send(data);
 }
+

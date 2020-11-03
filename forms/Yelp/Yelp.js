@@ -6,6 +6,7 @@ btnNext1.onclick=function(){
   ChangeForm(Home)
 }
 
+
 function onXHRLoad() {
     let message = ""
     let messageName = ""
