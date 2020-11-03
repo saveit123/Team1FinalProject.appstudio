@@ -32,7 +32,7 @@
   "icon": "caret",
   "id": "drpviewGoals",
   "items": "!Heading\nItem 1\nItem 2\n-\n*Item 3 (disabled)",
-
+  "left": 0,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -62,6 +62,7 @@
   "script": "",
   "size": " btn-md",
   "style": "",
-
+  "top": 0,
+  "value": "Dropdown",
   "width": "auto"
 }
