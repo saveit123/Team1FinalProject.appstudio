@@ -7,7 +7,7 @@ function onXHRLoad() {
     let message = ""
     let apiData = JSON.parse(this.responseText)
 
-    for (i = 0; i <= apiData.results.length - 1; i++) {
+    for (i = 0; i < apiData.results.length; i++) {
         console.log(`${apiData.results[i].name}`)
         message = message + apiData.results[i].name + "\n"
     }
