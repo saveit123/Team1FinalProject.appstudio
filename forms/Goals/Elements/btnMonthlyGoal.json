@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnMonthlyGoal",
-  "left": 158,
+  "left": 180,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 220,
+  "top": 289,
   "value": "Monthly Goal",
   "width": 125
 }

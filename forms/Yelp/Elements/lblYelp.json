@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblYelp",
   "labelStyle": "text",
-  "left": 132,
+  "left": 31,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 64,
-  "value": "Yelp",
+  "top": 62,
+  "value": "Search for a Restaurant Using Yelp",
   "width": "auto"
 }

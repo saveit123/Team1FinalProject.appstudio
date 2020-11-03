@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblBudgetResult",
   "labelStyle": "text",
-  "left": 20,
+  "left": 16,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 325,
+  "top": 334,
   "value": "",
   "width": 293
 }

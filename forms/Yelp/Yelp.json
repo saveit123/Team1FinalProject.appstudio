@@ -27,6 +27,24 @@
         "Elements",
         "btnNext1.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Yelp",
+        "Elements",
+        "btnSearchYelp.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Yelp",
+        "Elements",
+        "txtSearchRestaurant.json"
+      ]
     }
   ],
   "class": "",
