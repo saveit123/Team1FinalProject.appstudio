@@ -1,3 +1,4 @@
+/*
 btnCalculatorBack.onclick=function(){
   ChangeForm(Home)
 }
@@ -47,7 +48,7 @@ btnCal.onclick=function(){
    // call the API calling code above
   callAPI(requestURL)
 }
-*/
+
 function callAPI(URL) {
 var data = null;
 
@@ -66,4 +67,4 @@ xhr.setRequestHeader("x-rapidapi-key", "1e3338ccbbmshf93f75dd05e0ce6p1ebcbajsnf5
 
 xhr.send(data);
 }
-
+*/
