@@ -1,4 +1,13 @@
+// Use the line of code below but remove the '&Authorization=Token e3R.....'*
+// let requestURL = "https://api.yelp.com/v3/businesses/search?location=68131&type=restaurant&Authorization=Token e3RmWeocT4zElvPssMD_Sa7qAWWOUnQT3yGNpBLoTVZgMWW5Bz3QP8c33iJQ0-McUho4RCjkWD13S-X9v7YLOGHnmDOl9ji-3axv4rQ-hpsuI2MOTlAMVs02alqfX3Yx"
+let requestURL = "https://api.yelp.com/v3/businesses/search?location=68131&type=restaurant"
+// make a variable named 'myToken' and put your authorization key in it*
+let myToken =  'e3RmWeocT4zElvPssMD_Sa7qAWWOUnQT3yGNpBLoTVZgMWW5Bz3QP8c33iJQ0-McUho4RCjkWD13S-X9v7YLOGHnmDOl9ji-3axv4rQ-hpsuI2MOTlAMVs02alqfX3Yx'
+=======
+/*
+//let requestURL = "http://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?location=68131&type=restaurant"
 
+let requestURL = "http://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?location=68131&type=restaurant&Authorization=Token e3RmWeocT4zElvPssMD_Sa7qAWWOUnQT3yGNpBLoTVZgMWW5Bz3QP8c33iJQ0-McUho4RCjkWD13S-X9v7YLOGHnmDOl9ji-3axv4rQ-hpsuI2MOTlAMVs02alqfX3Yx"
 
 btnNext1.onclick=function(){
   ChangeForm(Home)
@@ -49,5 +58,5 @@ btnSearchYelp.onclick=function(){
   // call the API calling code above
   callAPI(requestURL)
 }
-
+*/
 
