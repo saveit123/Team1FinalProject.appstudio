@@ -11,24 +11,6 @@ results = ""
 let goalsMonth = ['']
 let goalsWeek= ['']
 
-Goals.onshow = function() {
-  drpViewWeeklyGoals.clear()
-  query1 = "SELECT * FROM weekly_goal"
-  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
-  if (req.status == 200) {
-  results = JSON.parse(req.responseText)
-  console.log(results)
-  goalsWeek = results
-  }
-if (results.length == 0) {
-  console.log(`There are no goals in the database.`)
- } else {
-  for (i = 0; i < results.length; i++)
-drpViewWeeklyGoals.addItem(results[i][1])
-}
-}
-
-
 /*
 drpViewWeeklyGoals.onclick = function(s) {
 if (typeof(s) == "object") {
@@ -54,6 +36,20 @@ if (results.length == 0) {
  } else {
   for (i = 0; i < results.length; i++)
 drpViewMonthlyGoals.addItem(results[i][1])
+}
+ drpViewWeeklyGoals.clear()
+  query1 = "SELECT * FROM weekly_goal"
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+  if (req.status == 200) {
+  results = JSON.parse(req.responseText)
+  console.log(results)
+  goalsWeek = results
+  }
+if (results.length == 0) {
+  console.log(`There are no goals in the database.`)
+ } else {
+  for (i = 0; i < results.length; i++)
+drpViewWeeklyGoals.addItem(results[i][1])
 }
 }
 
