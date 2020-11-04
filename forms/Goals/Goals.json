@@ -61,15 +61,6 @@
         "forms",
         "Goals",
         "Elements",
-        "lblBudgetResult.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Goals",
-        "Elements",
         "btnMonthlyGoal.json"
       ]
     },
@@ -79,7 +70,34 @@
         "forms",
         "Goals",
         "Elements",
-        "drpviewGoals.json"
+        "drpViewWeeklyGoals.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "lblGoalsConfirmation.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "lblGoalHistory.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "drpViewMonthlyGoals.json"
       ]
     }
   ],
