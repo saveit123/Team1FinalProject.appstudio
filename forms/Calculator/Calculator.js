@@ -1,4 +1,4 @@
-/*
+
 btnCalculatorBack.onclick=function(){
   ChangeForm(Home)
 }
@@ -67,4 +67,4 @@ xhr.setRequestHeader("x-rapidapi-key", "1e3338ccbbmshf93f75dd05e0ce6p1ebcbajsnf5
 
 xhr.send(data);
 }
-*/
+
