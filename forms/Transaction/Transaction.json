@@ -36,6 +36,51 @@
         "Elements",
         "btnTransactionBack.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "inptTransaction.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "selTransaction.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "btnPayment.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "btnIncome.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "Container1.json"
+      ]
     }
   ],
   "class": "",
