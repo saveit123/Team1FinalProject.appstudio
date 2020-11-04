@@ -18,6 +18,24 @@
         "Elements",
         "btnBalanceBack.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Balance",
+        "Elements",
+        "txtCurrentBalance.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Balance",
+        "Elements",
+        "txtCurrentGoal.json"
+      ]
     }
   ],
   "class": "",
