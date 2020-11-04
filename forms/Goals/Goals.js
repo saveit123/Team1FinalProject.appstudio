@@ -1,4 +1,4 @@
-/*
+
 //radio button, weekly or monthly data -- build with an if else 
 
 btnGoalsBack.onclick=function(){
@@ -8,48 +8,52 @@ btnGoalsBack.onclick=function(){
 req = ""
 query = ""
 results = ""
-let goals = ['']
+let goalsMonth = ['']
+let goalsWeek= ['']
 
 Goals.onshow = function() {
-  drpviewGoals.clear()
-  query = "SELECT * FROM weekly_goal"
+  drpViewWeeklyGoals.clear()
+  query1 = "SELECT * FROM weekly_goal"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   if (req.status == 200) {
   results = JSON.parse(req.responseText)
   console.log(results)
-  goals = results
+  goalsWeek = results
   }
 if (results.length == 0) {
   console.log(`There are no goals in the database.`)
  } else {
   for (i = 0; i < results.length; i++)
-drpviewGoals.addItem(results[i][1])
+drpViewWeeklyGoals.addItem(results[i][1])
 }
 }
 
-drpviewGoals.onclick = function(s) {
+
+/*
+drpViewWeeklyGoals.onclick = function(s) {
 if (typeof(s) == "object") {
 return
 } else {
-drpviewGoals.value = s
+drpViewWeeklyGoals.value = s
 let message = ""
 }
 }
+*/
 
 Goals.onshow = function() {
-  drpviewGoals.clear()
+  drpViewMonthlyGoals.clear()
   query = "SELECT * FROM monthly_goal"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   if (req.status == 200) {
   results = JSON.parse(req.responseText)
   console.log(results)
-  goals = results
+  goalsMonth = results
   }
 if (results.length == 0) {
   console.log(`There are no goals in the database.`)
  } else {
   for (i = 0; i < results.length; i++)
-drpviewGoals.addItem(results[i][1])
+drpViewMonthlyGoals.addItem(results[i][1])
 }
 }
 
@@ -116,9 +120,11 @@ console.log(req.status)
   console.log(req.responseText)
     if (req.responseText == 500) { // means the insert succeeded
       console.log("goal added")
-        lblBudgetResult.value =  `Your goal of ${newGoal} has been created!`
-    } else
+        lblGoalsConfirmation.textContent =  `Your weekly goal of  $${newGoal} has been created!`
+        lblGoalsConfirmation.hidden = false
+    } else {
       console.log("There was a problem with adding the goal.")
+      }
   } else {
     // transit error
     console.log("Error: " + req.status);
@@ -136,9 +142,11 @@ console.log(req.status)
   console.log(req.responseText)
     if (req.responseText == 500) { // means the insert succeeded
       console.log("goal added")
-        lblBudgetResult.value =  `Your goal of ${newGoal} has been created!`
-    } else
+          lblGoalsConfirmation.hidden = false
+          lblGoalsConfirmation.textContent =  `Your monthly goal of $${newGoal} has been created!`
+    } else {
       console.log("There was a problem with adding the goal.")
+      }
   } else {
     // transit error
     console.log("Error: " + req.status);
