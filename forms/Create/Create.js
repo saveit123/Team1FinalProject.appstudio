@@ -2,10 +2,7 @@ btnReturnLogin.onclick=function(){
   ChangeForm(LoginPage)
 }
 
- let req = ""
-let query = ""
-let results = ""
-let userID = ""
+
 
 btnCreate.onclick = function() {
   let newUsername =  inptUsernameCreate.value
