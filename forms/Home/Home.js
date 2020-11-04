@@ -18,9 +18,7 @@ btnCalendar.onclick=function(){
   ChangeForm(Calendar)
 }
 
-req = ""
-query = ""
-results = ""
+/*
 
   query = `SELECT user_id FROM user`
   console.log(query)
@@ -39,3 +37,4 @@ console.log(req.status)
   }
 
 
+*/
