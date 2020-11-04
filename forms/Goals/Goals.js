@@ -5,11 +5,7 @@ btnGoalsBack.onclick=function(){
   ChangeForm(Home)
 }
 
-req = ""
-query = ""
-results = ""
-let goalsMonth = ['']
-let goalsWeek= ['']
+
 
 /*
 drpViewWeeklyGoals.onclick = function(s) {
@@ -38,7 +34,7 @@ if (results.length == 0) {
 drpViewMonthlyGoals.addItem(results[i][1])
 }
  drpViewWeeklyGoals.clear()
-  query1 = "SELECT * FROM weekly_goal"
+  query = "SELECT * FROM weekly_goal"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   if (req.status == 200) {
   results = JSON.parse(req.responseText)

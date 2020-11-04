@@ -19,7 +19,7 @@
   "fontStyle": "",
   "fontWeight": "bold",
   "height": "auto",
-  "hidden": "",
+  "hidden": "display:none; ",
   "id": "lblGoalsConfirmation",
   "left": 146,
   "mAll": "",

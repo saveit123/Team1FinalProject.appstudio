@@ -23,16 +23,16 @@
           "!type": "External",
           "file": [
             "forms",
-            "Create",
-            "Create.json"
+            "LoginPage",
+            "LoginPage.json"
           ]
         },
         {
           "!type": "External",
           "file": [
             "forms",
-            "LoginPage",
-            "LoginPage.json"
+            "Create",
+            "Create.json"
           ]
         },
         {
@@ -127,7 +127,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "Create",
+      "firstform": "Goals",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",

@@ -1,9 +1,9 @@
-
+/*
 btnCalculatorBack.onclick=function(){
   ChangeForm(Home)
 }
 
-/*
+
 let requestURL = "simplecalculatorbygkservice.herokuapp.com/api/agritaskcalculator/result/{expression}?customerId=111980&productId=1504795"
 function onXHRLoad() {
     let message = ""
@@ -18,7 +18,7 @@ function onXHRLoad() {
 }
 
 
-/*
+
 function callAPI(URL) {
     var xhttp = new XMLHttpRequest();
     
@@ -32,7 +32,7 @@ btnCal.onclick=function(){
   callAPI(requestURL)
 }
 */
-
+/*
 // Use the line of code below but remove the '&Authorization=Token e3R.....'*
 // let requestURL = "https://api.yelp.com/v3/businesses/search?location=68131&type=restaurant&Authorization=Token e3RmWeocT4zElvPssMD_Sa7qAWWOUnQT3yGNpBLoTVZgMWW5Bz3QP8c33iJQ0-McUho4RCjkWD13S-X9v7YLOGHnmDOl9ji-3axv4rQ-hpsuI2MOTlAMVs02alqfX3Yx"
 let requestURL = "https://simple-calculator.p.rapidapi.com/?host=simple-calculator.p.rapidapi.com"
@@ -88,4 +88,4 @@ btnCalc.onclick=function(){
   // call the API calling code above
   callAPI(requestURL)
 }
-
+*/
