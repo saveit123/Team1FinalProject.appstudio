@@ -3,14 +3,14 @@ btnLogin.onclick=function() {
   let inputUsername = inptUsername.value
   let inputPassword = inptPassword.value
  query = `SELECT username FROM user`
-  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query1)
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   if (req.status == 200) { //transit worked.
           console.log(req.status)
           console.log(req.responseText)
           usernames = JSON.parse(req.responseText)
           console.log(usernames)
            query = `SELECT password FROM user`
-        req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query2)
+        req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
           if (req.status == 200) { //transit worked.
             console.log(req.status)
             console.log(req.responseText)
@@ -29,7 +29,7 @@ btnLogin.onclick=function() {
 							alert("Valid Credentials")
 							ChangeForm(Home)
                                                     query3 = `SELECT  user_id FROM user WHERE  inputUsername == results1[i]`
-                                                  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query3)
+                                                  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
                                                   if (req.status == 200) { //transit worked.
                                                     console.log(req.status)
                                                     console.log(req.responseText) 
@@ -40,6 +40,8 @@ btnLogin.onclick=function() {
                                                       }
     					} else {
         					alert("Invalid Credentials")
+                                                inptUsername.value = ""
+                                                inptPassword.value = ""
     					}       
 			} else {
 							  // transit error
