@@ -1,6 +1,3 @@
-
-//radio button, weekly or monthly data -- build with an if else 
-
 btnGoalsBack.onclick=function(){
   ChangeForm(Home)
 }
