@@ -6,13 +6,14 @@ btnBalanceBack.onclick=function(){
 
 Balance.onshow = function() {
 
-query = `SELECT MAX(date) FROM monthly_goal;`
+query = `SELECT MAX(date) FROM monthly_goal`
    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
           if (req.status == 200) { //transit worked.
             console.log(req.status)
             console.log(req.responseText)
           maxMonthly = JSON.parse(req.responseText)
-            console.log(maxMonthly)
+          maxMonthly = maxMonthly[0][0]
+            console.log(maxMonthly[0][0])
           } else {
             alert("transit error")
     					}       
@@ -22,12 +23,13 @@ query = `SELECT MAX(date) FROM weekly_goal;`
             console.log(req.status)
             console.log(req.responseText)
           maxWeekly= JSON.parse(req.responseText)
-            console.log(maxWeekly)
+          maxWeekly = maxWeekly[0][0]
+            console.log(maxWeekly[0][0])
             } else {
             alert("transit error")
     					}       
           if(maxMonthly>maxWeekly) {
-          query = `SELECT  amount FROM monthly_goal WHERE date=maxMonthly;`
+          query = `SELECT  amount FROM monthly_goal WHERE date=` + maxMonthly
  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
           if (req.status == 200) { //transit worked.
             console.log(req.status)
@@ -35,7 +37,7 @@ query = `SELECT MAX(date) FROM weekly_goal;`
           currentGoal= JSON.parse(req.responseText)
              txtCurrentGoal.value  =  currentGoal
             } else {
-            query= `SELECT  amount FROM weekly_goal WHERE date=maxWeekly;`
+            query= `SELECT  amount FROM weekly_goal WHERE date` + maxWeekly
             req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
           if (req.status == 200) { //transit worked.
             console.log(req.status)
