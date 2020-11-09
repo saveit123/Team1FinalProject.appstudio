@@ -17,7 +17,8 @@ console.log(req.status)
   console.log(req.responseText)
     if (req.responseText == 500) { // means the insert succeeded
       console.log("You have successfully added the user!")
-        txtCreateConfirm.value =  "Your account was successfully created.  Procede to Login page."
+      lblConfirmCreate.hidden = false
+      lblConfirmCreate.textContent =  "Your account was successfully created.  Procede to Login page."
     } else
       console.log("There was a problem with adding the user to the database.")
   } else {
