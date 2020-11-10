@@ -100,8 +100,8 @@ drpBudget.onclick=function(){
 
 btnWeeklyGoal.onclick = function() {
   let newGoal =  inptAmount.value
-  query = `INSERT INTO goals(amount, type) 
-VALUES('${newGoal}', "weekly")`
+  query = `INSERT INTO goals(amount, type, user_id) 
+VALUES('${newGoal}', "weekly", '${userID})`
   console.log(query)
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
 console.log(req.status)
@@ -122,8 +122,8 @@ console.log(req.status)
 
 btnMonthlyGoal.onclick = function() {
   let newGoal =  inptAmount.value
-  query = `INSERT INTO goals(amount, type) 
-VALUES('${newGoal}', "monthly")`
+  query = `INSERT INTO goals(amount, type, user_id) 
+VALUES('${newGoal}', "monthly", '${userID}')`
   console.log(query)
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
 console.log(req.status)

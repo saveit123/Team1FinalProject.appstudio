@@ -28,12 +28,13 @@ btnLogin.onclick=function() {
     					if (valid) {
 							alert("Valid Credentials")
 							ChangeForm(Home)
-                                                    query3 = `SELECT  user_id FROM user WHERE  inputUsername == results1[i]`
+                                                    query = `SELECT  user_id FROM user WHERE  username = "` + inputUsername + `"`
                                                   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
                                                   if (req.status == 200) { //transit worked.
                                                     console.log(req.status)
                                                     console.log(req.responseText) 
                                                     userID= JSON.parse(req.responseText)
+                                                    userID = Number(userID)
                                                       console.log(userID) 
                                                        } else { 
                                                     alert(`transit error`)
