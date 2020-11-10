@@ -17,7 +17,7 @@ let message = ""
 
 Goals.onshow = function() {
   drpViewMonthlyGoals.clear()
-  query = "SELECT * FROM monthly_goal"
+  query = "SELECT * FROM goals WHERE type = 'monthly'"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   if (req.status == 200) {
   results = JSON.parse(req.responseText)
@@ -31,7 +31,7 @@ if (results.length == 0) {
 drpViewMonthlyGoals.addItem(results[i][1])
 }
  drpViewWeeklyGoals.clear()
-  query = "SELECT * FROM weekly_goal"
+  query = "SELECT * FROM goals WHERE type = 'weekly'"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   if (req.status == 200) {
   results = JSON.parse(req.responseText)
@@ -100,8 +100,8 @@ drpBudget.onclick=function(){
 
 btnWeeklyGoal.onclick = function() {
   let newGoal =  inptAmount.value
-  query = `INSERT INTO weekly_goal (user_id, amount) 
-VALUES(1, '${newGoal}')`
+  query = `INSERT INTO goals(amount, type) 
+VALUES('${newGoal}', "weekly")`
   console.log(query)
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
 console.log(req.status)
@@ -122,8 +122,8 @@ console.log(req.status)
 
 btnMonthlyGoal.onclick = function() {
   let newGoal =  inptAmount.value
-  query = `INSERT INTO monthly_goal (user_id, amount) 
-VALUES(1, '${newGoal}')`
+  query = `INSERT INTO goals(amount, type) 
+VALUES('${newGoal}', "monthly")`
   console.log(query)
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
 console.log(req.status)
