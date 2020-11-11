@@ -33,7 +33,6 @@ drpViewWeeklyGoals.addItem(results[i][1])
 }
 }
 
-
 btnWeeklyGoal.onclick = function() {
   let newGoal =  inptAmount.value
   query = `INSERT INTO goals(amount, type, user_id) 

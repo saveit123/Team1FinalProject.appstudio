@@ -2,8 +2,6 @@ btnBalanceBack.onclick=function(){
   ChangeForm(Home)
 }
 
-
-
 Balance.onshow = function() {
 
 query = `SELECT MAX(goal_id) FROM goals`
