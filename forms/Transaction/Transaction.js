@@ -25,7 +25,7 @@ console.log(req.status)
 }
 
 btnIncome.onclick = function() {
-  let newIncome =  inptAmount.value
+  let newIncome =  inptTransaction.value
   query = `INSERT INTO deposit(amount, deposit_type, user_id) 
 VALUES('${newIncome}', "income", '${userID}')`
   console.log(query)
@@ -44,4 +44,21 @@ console.log(req.status)
     // transit error
     console.log("Error: " + req.status);
   }
+query = `SELECT SUM(amount) FROM payment WHERE user_id = ` + userID
+req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+console.log(req.status)
+    totalPayments= JSON.parse(req.responseText)
+            console.log(totalPayments)
+  if (req.status == 200) { //transit worked.
+  console.log(req.responseText)
+     if (req.responseText == 500) { // means the insert succeeded
+      console.log("income added")
+          lblTransactionConfirmation.hidden = false
+          lblTransactionConfirmation.textContent =  `Your monthly transaction of +$${newIncome} has been created!`
+    } else {
+      console.log("There was a problem with the query")
+      }
+} else {
+   // transit error
+    console.log("Error: " + req.status);
 }
