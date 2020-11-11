@@ -81,6 +81,15 @@
         "Elements",
         "txtBalance.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "lblTransactionConfirmation.json"
+      ]
     }
   ],
   "class": "",
