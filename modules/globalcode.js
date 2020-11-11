@@ -11,3 +11,4 @@ let goalsWeek= ['']
 let currentGoal = ""
 let newGoal = ""
 let currentBalance = ""
+let totalPayments = ""
