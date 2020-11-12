@@ -24,12 +24,12 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": 25,
+  "height": 41,
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "btnBalance",
-  "left": 3,
+  "left": 12,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 432,
+  "top": 301,
   "value": "Balance",
-  "width": 50
+  "width": 101
 }
