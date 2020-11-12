@@ -71,14 +71,6 @@
           "!type": "External",
           "file": [
             "forms",
-            "GoogleMaps",
-            "GoogleMaps.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
             "PostMates",
             "PostMates.json"
           ]
@@ -106,6 +98,14 @@
             "Balance",
             "Balance.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "GoogleMaps",
+            "GoogleMaps.json"
+          ]
         }
       ],
       "configxml": null,
@@ -127,7 +127,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "LoginPage",
+      "firstform": "GoogleMaps",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",

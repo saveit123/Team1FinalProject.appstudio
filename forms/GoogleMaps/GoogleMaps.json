@@ -16,6 +16,24 @@
         "forms",
         "GoogleMaps",
         "Elements",
+        "txtGoogleMaps.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "GoogleMaps",
+        "Elements",
+        "btnSearchGoogleMaps.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "GoogleMaps",
+        "Elements",
         "btnNext3.json"
       ]
     },

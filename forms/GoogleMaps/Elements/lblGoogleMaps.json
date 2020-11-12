@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblGoogleMaps",
   "labelStyle": "text",
-  "left": 109,
+  "left": 110,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 79,
+  "top": 118,
   "value": "Google Maps",
   "width": "auto"
 }
