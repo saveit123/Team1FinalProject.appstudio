@@ -47,18 +47,34 @@ console.log(req.status)
 query = `SELECT SUM(amount) FROM payment WHERE user_id = ` + userID
 req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
 console.log(req.status)
-    totalPayments= JSON.parse(req.responseText)
-            console.log(totalPayments)
   if (req.status == 200) { //transit worked.
+totalPayments= req.responseText
+console.log(totalPayments)
   console.log(req.responseText)
      if (req.responseText == 500) { // means the insert succeeded
-      console.log("income added")
-          lblTransactionConfirmation.hidden = false
-          lblTransactionConfirmation.textContent =  `Your monthly transaction of +$${newIncome} has been created!`
+      console.log("payment totaled")
     } else {
       console.log("There was a problem with the query")
       }
 } else {
    // transit error
     console.log("Error: " + req.status);
+}
+query = `SELECT SUM(amount) FROM deposit WHERE user_id = ` + userID
+req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+console.log(req.status)
+  if (req.status == 200) { //transit worked.
+  totalIncome= JSON.parse(req.responseText)
+console.log(totalIncome)
+  console.log(req.responseText)
+     if (req.responseText == 500) { // means the insert succeeded
+      console.log("income totaled")
+    } else {
+      console.log("There was a problem with the query")
+          console.log("Error: " + req.status);
+      }
+} else {
+   // transit error
+    console.log("Error: " + req.status);
+}
 }
