@@ -16,25 +16,7 @@
         "forms",
         "Home",
         "Elements",
-        "lblHomePage.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Home",
-        "Elements",
         "btnBalance.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Home",
-        "Elements",
-        "btnGoals.json"
       ]
     },
     {
@@ -62,6 +44,24 @@
         "Home",
         "Elements",
         "btnCalendar.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Home",
+        "Elements",
+        "btnGoals.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Home",
+        "Elements",
+        "hdHomepage.json"
       ]
     }
   ],
