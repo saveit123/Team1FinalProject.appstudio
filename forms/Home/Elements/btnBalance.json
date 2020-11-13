@@ -2,7 +2,7 @@
   "!type": "Button_bs4",
   "ChangeForm": "",
   "appearance": " btn-secondary",
-  "backgroundColor": "",
+  "backgroundColor": "#1E90FF",
   "badge": "",
   "badgeAppearance": " badge-info",
   "blockLevel": "",
@@ -24,7 +24,7 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": 41,
+  "height": 44,
   "hidden": "",
   "icon": "",
   "iconTitle": "",
@@ -62,5 +62,5 @@
   "toggleControl": "",
   "top": 301,
   "value": "Balance",
-  "width": 101
+  "width": 102
 }

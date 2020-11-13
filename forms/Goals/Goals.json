@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#F5F5F5",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -98,6 +98,15 @@
         "Goals",
         "Elements",
         "drpViewMonthlyGoals.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "Image7.json"
       ]
     }
   ],

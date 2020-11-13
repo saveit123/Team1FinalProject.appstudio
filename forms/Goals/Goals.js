@@ -76,4 +76,3 @@ console.log(req.status)
     console.log("Error: " + req.status);
   }
 }
-

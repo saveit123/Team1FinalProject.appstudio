@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#F5F5F5",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -17,15 +17,6 @@
         "Transaction",
         "Elements",
         "btnNext6.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Transaction",
-        "Elements",
-        "lblTransaction.json"
       ]
     },
     {
@@ -89,6 +80,24 @@
         "Transaction",
         "Elements",
         "lblTransactionConfirmation.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "lblTransaction.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "Image6.json"
       ]
     }
   ],

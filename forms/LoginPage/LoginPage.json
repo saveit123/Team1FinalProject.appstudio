@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#F5F5F5",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -62,6 +62,15 @@
         "LoginPage",
         "Elements",
         "lblError.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "LoginPage",
+        "Elements",
+        "Image3.json"
       ]
     }
   ],

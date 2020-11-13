@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#F5F5F5",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -44,6 +44,15 @@
         "GoogleMaps",
         "Elements",
         "lblGoogleMaps.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "GoogleMaps",
+        "Elements",
+        "Image8.json"
       ]
     }
   ],

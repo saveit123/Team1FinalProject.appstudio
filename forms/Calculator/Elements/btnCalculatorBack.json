@@ -2,7 +2,7 @@
   "!type": "Button_bs4",
   "ChangeForm": "",
   "appearance": " btn-secondary",
-  "backgroundColor": "",
+  "backgroundColor": "#1E90FF",
   "badge": "",
   "badgeAppearance": " badge-info",
   "blockLevel": "",
@@ -24,7 +24,7 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": 34,
+  "height": 38,
   "hidden": "",
   "icon": "",
   "iconTitle": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 13,
+  "top": 17,
   "value": "back to home",
   "width": 67
 }

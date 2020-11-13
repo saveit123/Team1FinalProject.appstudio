@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#F5F5F5",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -44,6 +44,15 @@
         "Yelp",
         "Elements",
         "txtSearchRestaurant.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Yelp",
+        "Elements",
+        "Image10.json"
       ]
     }
   ],

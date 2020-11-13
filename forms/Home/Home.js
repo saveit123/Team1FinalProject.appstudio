@@ -1,20 +1,20 @@
-btnBalance.onclick=function(){
+btnBalance.onclick = function() {
   ChangeForm(Balance)
 }
 
-btnGoals.onclick=function(){
+btnGoals.onclick = function() {
   ChangeForm(Goals)
 }
 
-btnTransaction.onclick=function(){
+btnTransaction.onclick = function() {
   ChangeForm(Transaction)
 }
 
-btnCalculator.onclick=function(){
+btnCalculator.onclick = function() {
   ChangeForm(Calculator)
 }
 
-btnCalendar.onclick=function(){
+btnCalendar.onclick = function() {
   ChangeForm(Calendar)
 }
 

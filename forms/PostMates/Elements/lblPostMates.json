@@ -14,12 +14,12 @@
   "fontFamily": "",
   "fontSize": "",
   "fontStyle": "",
-  "fontWeight": "",
+  "fontWeight": "bold",
   "height": "auto",
   "hidden": "",
   "id": "lblPostMates",
   "labelStyle": "text",
-  "left": 117,
+  "left": 108,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 93,
+  "top": 92,
   "value": "Post Mates",
   "width": "auto"
 }
