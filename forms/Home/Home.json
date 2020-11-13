@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#F5F5F5",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -62,6 +62,15 @@
         "Home",
         "Elements",
         "hdHomepage.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Home",
+        "Elements",
+        "Image1.json"
       ]
     }
   ],

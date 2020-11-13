@@ -14,7 +14,7 @@
   "fontFamily": "",
   "fontSize": "",
   "fontStyle": "",
-  "fontWeight": "",
+  "fontWeight": "500",
   "height": "auto",
   "hidden": "",
   "id": "lblFirstNo",

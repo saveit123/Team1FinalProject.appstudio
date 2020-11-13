@@ -1,4 +1,4 @@
-btnCalculatorBack.onclick=function(){
+btnCalculatorBack.onclick = function() {
   ChangeForm(Home)
 }
 cmdAdd.onclick = function() {
@@ -33,7 +33,6 @@ cmdMultiply.onclick = function() {
   FirstNumber = parseFloat(txtFirstNo.value);
   SecondNumber = parseFloat(txtSecondNo.value);
   Total = FirstNumber * SecondNumber;
-
   txtTotal.value = Total;
 }
 
@@ -44,7 +43,7 @@ cmdDivide.onclick = function() {
 
   FirstNumber = parseFloat(txtFirstNo.value);
   SecondNumber = parseFloat(txtSecondNo.value);
-  Total = FirstNumber / SecondNumber;
+  Total = (FirstNumber) / (SecondNumber);
 
   txtTotal.value = Total;
 }

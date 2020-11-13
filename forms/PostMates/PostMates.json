@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#F5F5F5",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -26,6 +26,15 @@
         "PostMates",
         "Elements",
         "lblPostMates.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PostMates",
+        "Elements",
+        "Image5.json"
       ]
     }
   ],

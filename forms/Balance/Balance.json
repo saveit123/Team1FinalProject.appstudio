@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#F5F5F5",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -35,6 +35,15 @@
         "Balance",
         "Elements",
         "txtCurrentGoal.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Balance",
+        "Elements",
+        "Image4.json"
       ]
     }
   ],

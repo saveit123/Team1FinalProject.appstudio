@@ -2,7 +2,7 @@
   "!type": "Dropdown_bs4",
   "align": "",
   "appearance": " btn-secondary",
-  "backgroundColor": "",
+  "backgroundColor": "#1E90FF",
   "badge": "",
   "badgeAppearance": " badge-info",
   "blockLevel": "",
@@ -27,7 +27,7 @@
   "fontWeight": "",
   "groupStyle": "",
   "grouping": "",
-  "height": 37,
+  "height": 38,
   "hidden": "",
   "icon": "caret",
   "id": "drpViewWeeklyGoals",
@@ -62,7 +62,7 @@
   "script": "",
   "size": " btn-md",
   "style": "",
-  "top": 410,
+  "top": 411,
   "value": "Weekly",
   "width": 92
 }

@@ -14,7 +14,7 @@
   "fontFamily": "",
   "fontSize": "",
   "fontStyle": "",
-  "fontWeight": "",
+  "fontWeight": "bold",
   "height": "auto",
   "hidden": "",
   "id": "lblGoals",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 31,
+  "top": 39,
   "value": "Goals",
   "width": "auto"
 }
