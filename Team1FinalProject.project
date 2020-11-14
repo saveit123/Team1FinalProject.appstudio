@@ -79,14 +79,6 @@
           "!type": "External",
           "file": [
             "forms",
-            "PostMates",
-            "PostMates.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
             "Transaction",
             "Transaction.json"
           ]
