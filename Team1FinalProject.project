@@ -79,6 +79,14 @@
           "!type": "External",
           "file": [
             "forms",
+            "Balance",
+            "Balance.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
             "Transaction",
             "Transaction.json"
           ]
@@ -89,14 +97,6 @@
             "forms",
             "Goals",
             "Goals.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "Balance",
-            "Balance.json"
           ]
         },
         {
