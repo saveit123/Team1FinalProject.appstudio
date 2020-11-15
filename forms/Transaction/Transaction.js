@@ -79,3 +79,12 @@ VALUES('${newIncome}', "income", '${userID}')`
     console.log("Error: " + req.status);
   }
 }
+
+
+Transaction.onshow = function() {
+
+currentBalance = currentGoal + Number(totalIncome) - Number(totalPayments)
+
+console.log(currentBalance)
+
+}
