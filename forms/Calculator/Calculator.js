@@ -1,23 +1,30 @@
 btnCalculatorBack.onclick = function() {
   ChangeForm(Home)
 }
-cmdAdd.onclick = function() {
-  var FirstNumber;
-  var SecondNumber;
-  var Total;
 
+cmdMultiply.onclick = function() {
+var FirstNumber;
+var SecondNumber;
+var Total;
+  FirstNumber = parseFloat(txtFirstNo.value);
+  SecondNumber = parseFloat(txtSecondNo.value);
+  Total = FirstNumber * SecondNumber;
+  txtTotal.value = Total;
+}
+cmdAdd.onclick = function() {
+var FirstNumber;
+var SecondNumber;
+var Total;
   FirstNumber = parseFloat(txtFirstNo.value);
   SecondNumber = parseFloat(txtSecondNo.value);
   Total = FirstNumber + SecondNumber;
 
   txtTotal.value = Total;
 }
-
 cmdSubtract.onclick = function() {
-  var FirstNumber;
-  var SecondNumber;
-  var Total;
-
+var FirstNumber;
+var SecondNumber;
+var Total;
   FirstNumber = parseFloat(txtFirstNo.value);
   SecondNumber = parseFloat(txtSecondNo.value);
   Total = FirstNumber - SecondNumber;
@@ -25,22 +32,10 @@ cmdSubtract.onclick = function() {
   txtTotal.value = Total;
 }
 
-cmdMultiply.onclick = function() {
-  var FirstNumber;
-  var SecondNumber;
-  var Total;
-
-  FirstNumber = parseFloat(txtFirstNo.value);
-  SecondNumber = parseFloat(txtSecondNo.value);
-  Total = FirstNumber * SecondNumber;
-  txtTotal.value = Total;
-}
-
 cmdDivide.onclick = function() {
-  var FirstNumber;
-  var SecondNumber;
-  var Total;
-
+var FirstNumber;
+var SecondNumber;
+var Total;
   FirstNumber = parseFloat(txtFirstNo.value);
   SecondNumber = parseFloat(txtSecondNo.value);
   Total = (FirstNumber) / (SecondNumber);
@@ -81,7 +76,7 @@ cmdSubtract.onclick = function() {
   var FirstNumber = parseFloat(txtFirstNo.value);
   var SecondNumber = parseFloat(txtSecondNo.value);
 
-  var Total = FirstNumber + SecondNumber;
+  var Total = FirstNumber - SecondNumber;
 
   txtTotal.value = Total.toString();
 }
@@ -100,7 +95,7 @@ cmdMultiply.onclick = function() {
   var FirstNumber = parseFloat(txtFirstNo.value);
   var SecondNumber = parseFloat(txtSecondNo.value);
 
-  var Total = FirstNumber + SecondNumber;
+  var Total = FirstNumber * SecondNumber;
 
   txtTotal.value = Total.toString();
 }
@@ -119,7 +114,7 @@ cmdDivide.onclick = function() {
   var FirstNumber = parseFloat(txtFirstNo.value);
   var SecondNumber = parseFloat(txtSecondNo.value);
 
-  var Total = FirstNumber + SecondNumber;
+  var Total = (FirstNumber) / (SecondNumber);
 
   txtTotal.value = Total.toString();
 }
