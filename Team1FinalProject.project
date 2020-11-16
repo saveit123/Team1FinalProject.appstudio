@@ -79,14 +79,6 @@
           "!type": "External",
           "file": [
             "forms",
-            "Balance",
-            "Balance.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
             "Transaction",
             "Transaction.json"
           ]
@@ -97,6 +89,14 @@
             "forms",
             "Goals",
             "Goals.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Balance",
+            "Balance.json"
           ]
         },
         {
@@ -127,6 +127,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
+      "firstform": "Home",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
@@ -169,7 +170,7 @@
       "useStrict": "",
       "version": "1.0.0",
       "viewportFit": "cover",
-      "voltAppId": "XZC9vJ",
+      "voltAppId": "OgCYmd",
       "voltDomain": ""
     }
   ],
