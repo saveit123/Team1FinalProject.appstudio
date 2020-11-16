@@ -34,9 +34,9 @@ drpViewWeeklyGoals.addItem(results[i][1])
 }
 
 btnWeeklyGoal.onclick = function() {
-  let newGoal =  inptAmount.value
+  newGoal =  inptAmount.value
   query = `INSERT INTO goals(amount, type, user_id) 
-VALUES('${newGoal}', "weekly", '${userID})`
+VALUES('${newGoal}', "weekly", ${userID})`
   console.log(query)
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
 console.log(req.status)
@@ -53,10 +53,30 @@ console.log(req.status)
     // transit error
     console.log("Error: " + req.status);
   }
+  query = `TRUNCATE TABLE payment`
+  console.log(query)
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+console.log(req.status)
+  if (req.status == 200) { //transit worked.
+      console.log("payment table cleared")
+  } else {
+    // transit error
+    console.log("Error: " + req.status);
+}
+  query = `TRUNCATE TABLE deposit`
+  console.log(query)
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+console.log(req.status)
+  if (req.status == 200) { //transit worked.
+        console.log("deposit table cleared")
+  } else {
+    // transit error
+    console.log("Error: " + req.status);
+}
 }
 
 btnMonthlyGoal.onclick = function() {
-  let newGoal =  inptAmount.value
+  newGoal =  inptAmount.value
   query = `INSERT INTO goals(amount, type, user_id) 
 VALUES('${newGoal}', "monthly", '${userID}')`
   console.log(query)
@@ -75,4 +95,24 @@ console.log(req.status)
     // transit error
     console.log("Error: " + req.status);
   }
+ query = `TRUNCATE TABLE payment`
+  console.log(query)
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+console.log(req.status)
+  if (req.status == 200) { //transit worked.
+      console.log("payment table cleared")
+  } else {
+    // transit error
+    console.log("Error: " + req.status);
+}
+  query = `TRUNCATE TABLE deposit`
+  console.log(query)
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+console.log(req.status)
+  if (req.status == 200) { //transit worked.
+  console.log("deposit table cleared")
+  } else {
+    // transit error
+    console.log("Error: " + req.status);
+}
 }
