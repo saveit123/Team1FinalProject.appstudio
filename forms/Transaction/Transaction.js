@@ -17,17 +17,18 @@ VALUES('${newPayment}', "payment", '${userID}')`
       lblTransactionConfirmation.hidden = false
     } else {
       console.log("There was a problem with adding the transaction.")
-    }
+      }
   } else {
     // transit error
     console.log("Error: " + req.status);
-  }
-  
+    }
+    
   query = `SELECT SUM(amount) FROM payment WHERE user_id = ` + userID
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   console.log(req.status)
   if (req.status == 200) { //transit worked.
-    totalPayments = req.responseText
+    totalPayments = JSON.parse(req.responseText)
+    totalPayments = Number(totalPayments)
     console.log(totalPayments)
     console.log(req.responseText)
   } else {
@@ -38,14 +39,21 @@ VALUES('${newPayment}', "payment", '${userID}')`
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   console.log(req.status)
   if (req.status == 200) { //transit worked.
-    totalIncome = req.responseText
+    totalIncome = JSON.parse(req.responseText)
+    totalIncome = Number(totalIncome)
     console.log(totalIncome)
     console.log(req.responseText)
   } else {
     // transit error
     console.log("Error: " + req.status);
   }
-}
+
+currentBalance = Number(currentGoal) + Number(totalIncome) - Number(totalPayments)
+
+console.log(currentBalance)
+txtBalance.value = currentBalance
+  }
+
 
 btnIncome.onclick = function() {
   let newIncome = inptTransaction.value
@@ -92,7 +100,11 @@ VALUES('${newIncome}', "income", '${userID}')`
     // transit error
     console.log("Error: " + req.status);
   }
-}
+  currentBalance = Number(currentGoal) + Number(totalIncome) - Number(totalPayments)
+
+console.log(currentBalance)
+txtBalance.value = currentBalance
+  }
 
 
 Transaction.onshow = function() {
@@ -126,6 +138,5 @@ currentBalance = Number(currentGoal) + Number(totalIncome) - Number(totalPayment
 
 console.log(currentBalance)
 txtBalance.value = currentBalance
-
 
 }
