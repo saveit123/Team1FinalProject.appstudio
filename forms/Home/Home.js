@@ -38,3 +38,9 @@ console.log(req.status)
 
 
 */
+hmChange.onclick=function(s){
+    if (typeof(s) == "Balance") {
+        return;
+    }
+    ChangeForm(Balance)
+};
