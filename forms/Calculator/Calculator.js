@@ -113,8 +113,8 @@ cmdDivide.onclick = function() {
 
   var FirstNumber = parseFloat(txtFirstNo.value);
   var SecondNumber = parseFloat(txtSecondNo.value);
-
   var Total = (FirstNumber) / (SecondNumber);
+
 
   txtTotal.value = Total.toString();
 }
