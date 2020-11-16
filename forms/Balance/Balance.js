@@ -26,4 +26,35 @@ Balance.onshow = function() {
   } else {
     alert("transit error")
   }
+  
+    query = `SELECT SUM(amount) FROM payment WHERE user_id = ` + userID
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+  console.log(req.status)
+  if (req.status == 200) { //transit worked.
+    totalPayments = JSON.parse(req.responseText)
+    totalPayments = Number(totalPayments)
+    console.log(totalPayments)
+    console.log(req.responseText)
+  } else {
+    // transit error
+    console.log("Error: " + req.status);
+  }
+  query = `SELECT SUM(amount) FROM deposit WHERE user_id = ` + userID
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
+  console.log(req.status)
+  if (req.status == 200) { //transit worked.
+    totalIncome = JSON.parse(req.responseText)
+    totalIncome = Number(totalIncome)
+    console.log(totalIncome)
+    console.log(req.responseText)
+  } else {
+    // transit error
+    console.log("Error: " + req.status);
+  }
+
+currentBalance = Number(currentGoal) + Number(totalIncome) - Number(totalPayments)
+
+console.log(currentBalance)
+txtCurrentBalance.value = currentBalance
+
 }
