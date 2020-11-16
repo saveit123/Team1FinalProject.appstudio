@@ -81,7 +81,7 @@ cmdSubtract.onclick = function() {
   var FirstNumber = parseFloat(txtFirstNo.value);
   var SecondNumber = parseFloat(txtSecondNo.value);
 
-  var Total = FirstNumber + SecondNumber;
+  var Total = FirstNumber - SecondNumber;
 
   txtTotal.value = Total.toString();
 }
@@ -100,7 +100,7 @@ cmdMultiply.onclick = function() {
   var FirstNumber = parseFloat(txtFirstNo.value);
   var SecondNumber = parseFloat(txtSecondNo.value);
 
-  var Total = FirstNumber + SecondNumber;
+  var Total = FirstNumber * SecondNumber;
 
   txtTotal.value = Total.toString();
 }
@@ -119,7 +119,7 @@ cmdDivide.onclick = function() {
   var FirstNumber = parseFloat(txtFirstNo.value);
   var SecondNumber = parseFloat(txtSecondNo.value);
 
-  var Total = FirstNumber + SecondNumber;
+  var Total = FirstNumber / SecondNumber;
 
   txtTotal.value = Total.toString();
 }
