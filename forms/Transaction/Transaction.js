@@ -72,7 +72,8 @@ VALUES('${newIncome}', "income", '${userID}')`
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   console.log(req.status)
   if (req.status == 200) { //transit worked.
-    totalPayments = req.responseText
+    totalPayments = JSON.parse(req.responseText)
+    totalPayments = Number(totalPayments)
     console.log(totalPayments)
     console.log(req.responseText)
   } else {
@@ -83,7 +84,8 @@ VALUES('${newIncome}', "income", '${userID}')`
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   console.log(req.status)
   if (req.status == 200) { //transit worked.
-    totalIncome = req.responseText
+    totalIncome = JSON.parse(req.responseText)
+    totalIncome = Number(totalIncome)
     console.log(totalIncome)
     console.log(req.responseText)
   } else {
@@ -99,7 +101,8 @@ Transaction.onshow = function() {
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   console.log(req.status)
   if (req.status == 200) { //transit worked.
-    totalPayments = req.responseText
+    totalPayments = JSON.parse(req.responseText)
+    totalPayments = Number(totalPayments)
     console.log(totalPayments)
     console.log(req.responseText)
   } else {
@@ -110,7 +113,8 @@ Transaction.onshow = function() {
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=kmh76825&pass=" + pw + "&database=375groupa1&query=" + query)
   console.log(req.status)
   if (req.status == 200) { //transit worked.
-    totalIncome = req.responseText
+    totalIncome = JSON.parse(req.responseText)
+    totalIncome = Number(totalIncome)
     console.log(totalIncome)
     console.log(req.responseText)
   } else {
@@ -118,8 +122,10 @@ Transaction.onshow = function() {
     console.log("Error: " + req.status);
   }
 
-currentBalance = currentGoal + Number(totalIncome) - Number(totalPayments)
+currentBalance = Number(currentGoal) + Number(totalIncome) - Number(totalPayments)
 
 console.log(currentBalance)
+txtBalance.value = currentBalance
+
 
 }
