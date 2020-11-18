@@ -55,14 +55,6 @@
           "!type": "External",
           "file": [
             "forms",
-            "Calendar",
-            "Calendar.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
             "Calculator",
             "Calculator.json"
           ]
@@ -106,6 +98,14 @@
             "GoogleMaps",
             "GoogleMaps.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Calendar",
+            "Calendar.json"
+          ]
         }
       ],
       "configxml": null,
@@ -127,6 +127,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
+      "firstform": "Form1",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
