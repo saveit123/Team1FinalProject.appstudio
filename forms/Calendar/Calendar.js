@@ -150,3 +150,7 @@ document
     .addEventListener('click', function () {
         popupInst.show();
     }, false);
+    
+btnBack1.onclick=function(){
+  ChangeForm(Home)
+}

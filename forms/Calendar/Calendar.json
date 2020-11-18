@@ -18,6 +18,24 @@
         "Elements",
         "HTMLview1.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Calendar",
+        "Elements",
+        "Hamburger1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Calendar",
+        "Elements",
+        "Image6Copy.json"
+      ]
     }
   ],
   "class": "",
@@ -25,7 +43,7 @@
   "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
+  "height": "700",
   "id": "Calendar",
   "language": "JavaScript",
   "left": "0",
@@ -43,5 +61,5 @@
   "style": "",
   "theme": "",
   "top": "0",
-  "width": 320
+  "width": "350"
 }

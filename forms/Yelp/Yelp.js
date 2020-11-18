@@ -53,3 +53,14 @@ btnSearchYelp.onclick = function() {
   // call the API calling code above
   callAPI(requestURL2)
 }
+
+hmGoalsCopy.onclick=function(){
+     if (typeof(s) == "Balance") {
+        return;
+    }
+    ChangeForm(Balance)
+    ChangeForm(Goals)
+    ChangeForm(Home)
+    ChangeForm(Transaction)
+    ChangeForm(Calculator)
+}

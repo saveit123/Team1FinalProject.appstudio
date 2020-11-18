@@ -34,15 +34,6 @@
         "forms",
         "Calculator",
         "Elements",
-        "btnCalculatorBack.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Calculator",
-        "Elements",
         "cmdAdd.json"
       ]
     },
@@ -134,6 +125,15 @@
         "Calculator",
         "Elements",
         "Image9.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Calculator",
+        "Elements",
+        "hmCal.json"
       ]
     }
   ],

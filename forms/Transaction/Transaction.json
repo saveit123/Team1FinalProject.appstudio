@@ -25,15 +25,6 @@
         "forms",
         "Transaction",
         "Elements",
-        "btnTransactionBack.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Transaction",
-        "Elements",
         "inptTransaction.json"
       ]
     },
@@ -98,6 +89,15 @@
         "Transaction",
         "Elements",
         "Image6.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "hmTransaction.json"
       ]
     }
   ],
