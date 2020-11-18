@@ -150,6 +150,7 @@ document
     .addEventListener('click', function () {
         popupInst.show();
     }, false);
+
     
 btnCalendarBack.onclick=function(){
   ChangeForm(Home)
