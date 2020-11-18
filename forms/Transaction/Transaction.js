@@ -158,6 +158,24 @@ txtBalance.value = currentBalance
 
 }
 
-hmTransaction.onclick=function(){
-  
-}
+hmTransaction.onclick=function(s){
+     if (typeof(s) == "object") {
+        return;
+        }
+    if (s === "Home") {
+        hmChange.hide();
+        Home.show();
+    }
+    if (s === "Balance") {
+        hmChange.hide();
+        Balance.show();
+    }
+    if (s === "Transaction") {
+       hmChange.hide();
+      Transaction.show();
+    }
+       if (s === "Calculator") {
+        hmChange.hide();
+        Calculator.show();
+    }
+};

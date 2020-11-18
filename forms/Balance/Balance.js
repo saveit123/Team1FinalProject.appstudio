@@ -55,12 +55,24 @@ txtCurrentBalance.value = currentBalance
 
 }
 
-hmBalance.onclick=function(){
-     if (typeof(s) == "Goals") {
+hmBalance.onclick=function(s){
+       if (typeof(s) == "object") {
         return;
+        }
+      if (s === "Home") {
+        hmChange.hide();
+        Home.show();
     }
-    ChangeForm(Goals)
-    ChangeForm(Home)
-    ChangeForm(Transaction)
-    ChangeForm(Calculator)
-}
+    if (s === "Goals") {
+        hmChange.hide();
+        Goals.show();
+    }
+    if (s === "Transaction") {
+       hmChange.hide();
+      Transaction.show();
+    }
+       if (s === "Calculator") {
+        hmChange.hide();
+        Calculator.show();
+    }
+};

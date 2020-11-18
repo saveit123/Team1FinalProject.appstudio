@@ -54,7 +54,7 @@ btnSearchYelp.onclick = function() {
   callAPI(requestURL2)
 }
 
-hmGoalsCopy.onclick=function(){
+hmGoalsCopy.onclick=function(s){
      if (typeof(s) == "Balance") {
         return;
     }
