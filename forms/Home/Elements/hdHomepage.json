@@ -24,7 +24,7 @@
   "hidden": "",
   "id": "hdHomepage",
   "justifyContent": "",
-  "left": 178,
+  "left": 0,
   "onclick": "",
   "onmousedown": "",
   "onmousemove": "",
@@ -39,6 +39,6 @@
   "script": "",
   "style": "",
   "text": "Home Page ",
-  "top": 52,
+  "top": 0,
   "width": 0
 }
