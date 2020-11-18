@@ -113,12 +113,7 @@ console.log(req.status)
 }
 }
 
-hmGoals.onclick=function(){
-      if (typeof(s) == "Balance") {
-        return;
-    }
-    ChangeForm(Balance)
-    ChangeForm(Home)
-    ChangeForm(Transaction)
-    ChangeForm(Calculator)
-};
+
+btnBack1.onclick=function(){
+  ChangeForm(Home)
+}

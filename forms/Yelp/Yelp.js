@@ -54,13 +54,13 @@ btnSearchYelp.onclick = function() {
   callAPI(requestURL2)
 }
 
-hmGoalsCopy.onclick=function(){
-     if (typeof(s) == "Balance") {
+hmGoalsCopy.onclick=function(s){
+     if (typeof(s) == "Home") {
         return;
     }
-    ChangeForm(Balance)
-    ChangeForm(Goals)
+    //ChangeForm(Balance)
+    //ChangeForm(Goals)
     ChangeForm(Home)
-    ChangeForm(Transaction)
-    ChangeForm(Calculator)
+    //ChangeForm(Transaction)
+    //ChangeForm(Calculator)
 }
