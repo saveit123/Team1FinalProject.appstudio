@@ -16,25 +16,7 @@
         "forms",
         "Calendar",
         "Elements",
-        "lblCalendar.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Calendar",
-        "Elements",
-        "btnNext2.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Calendar",
-        "Elements",
-        "btnCalendarBack.json"
+        "HTMLview1.json"
       ]
     }
   ],
