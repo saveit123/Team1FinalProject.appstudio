@@ -16,7 +16,7 @@
         "forms",
         "Transaction",
         "Elements",
-        "btnNext6.json"
+        "btnChangeYelp.json"
       ]
     },
     {
@@ -26,15 +26,6 @@
         "Transaction",
         "Elements",
         "inptTransaction.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Transaction",
-        "Elements",
-        "selTransaction.json"
       ]
     },
     {
@@ -98,6 +89,33 @@
         "Transaction",
         "Elements",
         "Button3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "btnChangeCalc.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "btnChangeCalendar.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Transaction",
+        "Elements",
+        "btnChangeGoogle.json"
       ]
     }
   ],
