@@ -114,12 +114,8 @@ cmdDivide.onclick = function() {
 
   txtTotal.value = Total.toString();
 }
-hmCal.onclick=function(){
-      if (typeof(s) == "Goals") {
-        return;
-    }
-    ChangeForm(Goals)
-    ChangeForm(Home)
-    ChangeForm(Transaction)
-    ChangeForm(Balance)
+
+
+btnBackCalc.onclick=function(){
+  ChangeForm(Home)
 }

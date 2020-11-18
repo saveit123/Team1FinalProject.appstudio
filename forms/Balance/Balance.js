@@ -55,12 +55,6 @@ txtCurrentBalance.value = currentBalance
 
 }
 
-hmBalance.onclick=function(){
-     if (typeof(s) == "Goals") {
-        return;
-    }
-    ChangeForm(Goals)
-    ChangeForm(Home)
-    ChangeForm(Transaction)
-    ChangeForm(Calculator)
+Button1.onclick=function(){
+  ChangeForm(Home)
 }
