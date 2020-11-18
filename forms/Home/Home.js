@@ -39,12 +39,27 @@ console.log(req.status)
 
 */
 hmChange.onclick=function(s){
-    if (typeof(s) == "Balance") {
+   if (typeof(s) == "object") {
         return;
     }
-    ChangeForm(Balance)
-    ChangeForm(Goals)
-    ChangeForm(Transaction)
-    ChangeForm(Calculator)
-    ChangeForm(Calendar)
+    if (s === "Goals") {
+        Hamburger1.hide();
+        Goals.show();
+    }
+    if (s === "Transaction") {
+      Hamburger1.hide();
+      Transaction.show();
+    }
+    if (s === "Balance") {
+    Hamburger1.hide();
+    Balance.show();
+    }
+    if (s === "Calculator") {
+    Hamburger1.hide();
+    Calculator.show();
+    }
+      if (s === "Calendar") {
+      Hamburger1.hide();
+      Calendar.show();
+    }
 };

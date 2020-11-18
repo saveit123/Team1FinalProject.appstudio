@@ -151,6 +151,6 @@ document
         popupInst.show();
     }, false);
     
-btnBack1.onclick=function(){
+btnCalendarBack.onclick=function(){
   ChangeForm(Home)
 }
