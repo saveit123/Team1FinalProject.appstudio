@@ -1,7 +1,3 @@
-btnGoalsBack.onclick=function(){
-  ChangeForm(Home)
-}
-
 Goals.onshow = function() {
   drpViewMonthlyGoals.clear()
   query = "SELECT * FROM goals WHERE type = 'monthly' AND user_id =" + userID
@@ -116,3 +112,13 @@ console.log(req.status)
     console.log("Error: " + req.status);
 }
 }
+
+hmGoals.onclick=function(){
+      if (typeof(s) == "Balance") {
+        return;
+    }
+    ChangeForm(Balance)
+    ChangeForm(Home)
+    ChangeForm(Transaction)
+    ChangeForm(Calculator)
+};

@@ -1,7 +1,3 @@
-btnTransactionBack.onclick = function() {
-  ChangeForm(Home)
-}
-
 btnPayment.onclick = function() {
   let newPayment = inptTransaction.value
   query = `INSERT INTO payment(amount, payment_type, user_id) 
@@ -160,4 +156,8 @@ currentBalance = Number(currentGoal) + Number(totalIncome) - Number(totalPayment
 console.log(currentBalance)
 txtBalance.value = currentBalance
 
+}
+
+hmTransaction.onclick=function(){
+  
 }

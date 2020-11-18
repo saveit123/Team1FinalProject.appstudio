@@ -43,4 +43,8 @@ hmChange.onclick=function(s){
         return;
     }
     ChangeForm(Balance)
+    ChangeForm(Goals)
+    ChangeForm(Transaction)
+    ChangeForm(Calculator)
+    ChangeForm(Calendar)
 };

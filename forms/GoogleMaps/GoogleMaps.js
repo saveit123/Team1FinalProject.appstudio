@@ -1,6 +1,3 @@
-btnNext3.onclick = function() {
-  ChangeForm(PostMates)
-}
 let requestURL = "https://maps.googleapis.com/maps/api/place/textsearch/json?key=AIzaSyA0SIAFDYytJEp_VCA7tsTK_rgXgNINGoI&query=Restaurants in Omaha&location=41.256538, -95.934502"
 
 function onXHRLoad() {
@@ -27,4 +24,15 @@ function callAPI(URL) {
 btnSearchGoogleMaps.onclick = function() {
   // call the API calling code above
   callAPI(requestURL)
+}
+
+hmBalanceCopy.onclick=function(){
+     if (typeof(s) == "Goals") {
+        return;
+    }
+    ChangeForm(Goals)
+    ChangeForm(Home)
+    ChangeForm(Transaction)
+    ChangeForm(Balance)
+    ChangeForm(Calculator)
 }

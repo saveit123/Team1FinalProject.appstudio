@@ -16,15 +16,6 @@
         "forms",
         "Balance",
         "Elements",
-        "btnBalanceBack.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Balance",
-        "Elements",
         "txtCurrentBalance.json"
       ]
     },
@@ -44,6 +35,15 @@
         "Balance",
         "Elements",
         "Image4.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Balance",
+        "Elements",
+        "hmBalance.json"
       ]
     }
   ],

@@ -54,6 +54,15 @@
         "Elements",
         "Image10.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Yelp",
+        "Elements",
+        "hmGoalsCopy.json"
+      ]
     }
   ],
   "class": "",

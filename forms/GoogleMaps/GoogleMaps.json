@@ -54,6 +54,15 @@
         "Elements",
         "Image8.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "GoogleMaps",
+        "Elements",
+        "hmBalanceCopy.json"
+      ]
     }
   ],
   "class": "",

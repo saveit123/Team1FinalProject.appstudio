@@ -1,7 +1,3 @@
-btnCalculatorBack.onclick = function() {
-  ChangeForm(Home)
-}
-
 cmdMultiply.onclick = function() {
 var FirstNumber;
 var SecondNumber;
@@ -117,4 +113,13 @@ cmdDivide.onclick = function() {
 
 
   txtTotal.value = Total.toString();
+}
+hmCal.onclick=function(){
+      if (typeof(s) == "Goals") {
+        return;
+    }
+    ChangeForm(Goals)
+    ChangeForm(Home)
+    ChangeForm(Transaction)
+    ChangeForm(Balance)
 }

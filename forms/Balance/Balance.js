@@ -1,7 +1,3 @@
-btnBalanceBack.onclick = function() {
-  ChangeForm(Home)
-}
-
 Balance.onshow = function() {
 
   query = `SELECT MAX(goal_id) FROM goals`
@@ -57,4 +53,14 @@ currentBalance = Number(currentGoal) + Number(totalIncome) - Number(totalPayment
 console.log(currentBalance)
 txtCurrentBalance.value = currentBalance
 
+}
+
+hmBalance.onclick=function(){
+     if (typeof(s) == "Goals") {
+        return;
+    }
+    ChangeForm(Goals)
+    ChangeForm(Home)
+    ChangeForm(Transaction)
+    ChangeForm(Calculator)
 }

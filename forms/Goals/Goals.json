@@ -34,15 +34,6 @@
         "forms",
         "Goals",
         "Elements",
-        "btnGoalsBack.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Goals",
-        "Elements",
         "inptAmount.json"
       ]
     },
@@ -107,6 +98,15 @@
         "Goals",
         "Elements",
         "Image7.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Goals",
+        "Elements",
+        "hmGoals.json"
       ]
     }
   ],
