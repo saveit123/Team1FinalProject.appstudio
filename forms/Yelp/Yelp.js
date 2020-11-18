@@ -54,13 +54,7 @@ btnSearchYelp.onclick = function() {
   callAPI(requestURL2)
 }
 
-hmGoalsCopy.onclick=function(s){
-     if (typeof(s) == "Home") {
-        return;
-    }
-    //ChangeForm(Balance)
-    //ChangeForm(Goals)
-    ChangeForm(Home)
-    //ChangeForm(Transaction)
-    //ChangeForm(Calculator)
+
+btnSearchYelpCopy.onclick=function(){
+  ChangeForm(Home)
 }
