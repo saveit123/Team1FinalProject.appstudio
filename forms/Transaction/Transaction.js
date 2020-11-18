@@ -158,6 +158,7 @@ txtBalance.value = currentBalance
 
 }
 
-hmTransaction.onclick=function(){
-  
+
+Button3.onclick=function(){
+  ChangForm(Home)
 }

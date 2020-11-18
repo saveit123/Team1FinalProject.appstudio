@@ -26,13 +26,7 @@ btnSearchGoogleMaps.onclick = function() {
   callAPI(requestURL)
 }
 
-hmBalanceCopy.onclick=function(){
-     if (typeof(s) == "Goals") {
-        return;
-    }
-    ChangeForm(Goals)
-    ChangeForm(Home)
-    ChangeForm(Transaction)
-    ChangeForm(Balance)
-    ChangeForm(Calculator)
+
+btnBack2.onclick=function(){
+  ChangeForm(Home)
 }
