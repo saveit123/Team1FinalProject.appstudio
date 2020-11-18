@@ -161,3 +161,29 @@ txtBalance.value = currentBalance
 hmTransaction.onclick=function(){
   
 }
+
+
+selTransaction.onclick = function(s) {
+  // check to see if dropdown was clicked
+  if (typeof(s) == "object") {
+    return
+  } else {
+    drpUpdate.value = s // make dropdown show the choice the user made
+    switch(s) {
+  case "Going out to eat!":
+    ChangeForm(Yelp)
+    break
+  case "I need to do some math first...":
+    ChangeForm(Calculator)
+    break
+  case "Do I have anything coming up?":
+    ChangeForm(Calendar)
+    break
+case "Well, what are my options?":
+  ChangeForm(GoogleMaps)
+  }
+  }
+}
+
+
+
