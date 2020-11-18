@@ -43,15 +43,6 @@
         "forms",
         "Balance",
         "Elements",
-        "hmBalance.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Balance",
-        "Elements",
         "Button1.json"
       ]
     },
