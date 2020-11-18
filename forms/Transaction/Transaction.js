@@ -160,31 +160,54 @@ txtBalance.value = currentBalance
 
 
 Button3.onclick=function(){
-  ChangForm(Home)
+  ChangeForm(Home)
 }
 
-
-selTransaction.onclick = function(s) {
-  // check to see if dropdown was clicked
-  if (typeof(s) == "object") {
+/*
+selTransaction.onchange = function(s) {
+ if (typeof(s) == "object") {
     return
-  } else {
-    drpUpdate.value = s // make dropdown show the choice the user made
+    console.log(s)
+  } else { 
+   selTransaction.value = s // make dropdown show the choice the user made
+    console.log(s)
     switch(s) {
-  case "Going out to eat!":
-    ChangeForm(Yelp)
-    break
-  case "I need to do some math first...":
+  case 0:
+    ChangeForm(Home)
+    break;
+  case 1:
     ChangeForm(Calculator)
-    break
-  case "Do I have anything coming up?":
+    break;
+  case 2:
     ChangeForm(Calendar)
-    break
-case "Well, what are my options?":
+    break;
+case 3:
   ChangeForm(GoogleMaps)
+  break;
+  default:
+  return
+  console.log("make a selection")
   }
-  }
+  } 
+
 }
 
 
+*/
 
+
+btnChangeYelp.onclick=function(){
+  ChangeForm(Yelp)
+}
+
+btnChangeCalc.onclick=function(){
+  ChangeForm(Calculator)
+}
+
+btnChangeCalendar.onclick=function(){
+ ChangeForm(Calendar) 
+}
+
+btnChangeGoogle.onclick=function(){
+  ChangeForm(GoogleMaps)
+}
