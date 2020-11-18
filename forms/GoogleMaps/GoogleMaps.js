@@ -4,12 +4,12 @@ function onXHRLoad() {
   let message = ""
 
   // delete messageName (see below for rationale)*
-  let apiData = JSON.parse(this.responseText)
+  let apiData1 = JSON.parse(this.responseText)
 
   // use just plain 'message' below so the names are appended to the prices
-  for (i = 0; i < apiData.results.length; i++) {
-    console.log(`${apiData.results[i].name}`)
-    message = message + apiData.results[i].name + "\n"
+  for (i = 0; i < apiData1.results.length; i++) {
+    console.log(`${apiData1.results[i].name}`)
+    message = message + apiData1.results[i].name + "\n"
   }
   txtGoogleMaps.value = message
 }
