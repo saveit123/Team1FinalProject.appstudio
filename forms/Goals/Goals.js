@@ -1,3 +1,4 @@
+
 Goals.onshow = function() {
   drpViewMonthlyGoals.clear()
   query = "SELECT * FROM goals WHERE type = 'monthly' AND user_id =" + userID
@@ -113,12 +114,27 @@ console.log(req.status)
 }
 }
 
-hmGoals.onclick=function(){
-      if (typeof(s) == "Balance") {
+
+hmGoals.onclick=function(s){ 
+   if (typeof(s) == "object") {
         return;
+        }
+    if (s === "Home") {
+        hmChange.hide();
+        Home.show();
     }
-    ChangeForm(Balance)
-    ChangeForm(Home)
-    ChangeForm(Transaction)
-    ChangeForm(Calculator)
+    if (s === "Balance") {
+        hmChange.hide();
+        Balance.show();
+    }
+    if (s === "Transaction") {
+       hmChange.hide();
+      Transaction.show();
+    }
+       if (s === "Calculator") {
+        hmChange.hide();
+        Calculator.show();
+    }
 };
+
+

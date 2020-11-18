@@ -26,7 +26,7 @@ btnSearchGoogleMaps.onclick = function() {
   callAPI(requestURL)
 }
 
-hmBalanceCopy.onclick=function(){
+hmBalanceCopy.onclick=function(s){
      if (typeof(s) == "Goals") {
         return;
     }

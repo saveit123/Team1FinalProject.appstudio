@@ -151,6 +151,14 @@ document
         popupInst.show();
     }, false);
     
-btnBack1.onclick=function(){
-  ChangeForm(Home)
+
+
+Hamburger1.onclick=function(s){
+ if (typeof(s) == "Balance") {
+      return;
+      }
+    ChangeForm(Home)
+    ChangeForm(Goals)
+    ChangeForm(Transaction)
+    ChangeForm(Calculator)
 }

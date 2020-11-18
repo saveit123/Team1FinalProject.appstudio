@@ -39,12 +39,27 @@ console.log(req.status)
 
 */
 hmChange.onclick=function(s){
-    if (typeof(s) == "Balance") {
+    if (typeof(s) == "object") {
         return;
     }
-    ChangeForm(Balance)
-    ChangeForm(Goals)
-    ChangeForm(Transaction)
-    ChangeForm(Calculator)
-    ChangeForm(Calendar)
+    if (s === "Goals") {
+        hmChange.hide();
+        Goals.show();
+    }
+    if (s === "Balance") {
+        hmChange.hide();
+        Balance.show();
+    }
+    if (s === "Transaction") {
+       hmChange.hide();
+        Transaction.show();
+    }
+    if (s === "Calendar") {
+      hmChange.hide();
+      Calendar.show();
+    }
+       if (s === "Calculator") {
+        hmChange.hide();
+        Calculator.show();
+    }
 };

@@ -114,7 +114,7 @@ cmdDivide.onclick = function() {
 
   txtTotal.value = Total.toString();
 }
-hmCal.onclick=function(){
+hmCal.onclick=function(s){
       if (typeof(s) == "Goals") {
         return;
     }

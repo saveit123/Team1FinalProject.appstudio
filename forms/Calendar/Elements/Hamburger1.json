@@ -37,7 +37,7 @@
   "mLeft": "",
   "mRight": "",
   "mTop": "",
-  "onclick": "",
+  "onclick": "Hamburger1.onclick()",
   "onmousedown": "",
   "onmousemove": "",
   "onmouseout": "",
