@@ -34,7 +34,7 @@
         "forms",
         "GoogleMaps",
         "Elements",
-        "btnNext3.json"
+        "btnBacktoTransaction.json"
       ]
     },
     {
@@ -52,7 +52,7 @@
         "forms",
         "GoogleMaps",
         "Elements",
-        "Image8.json"
+        "imageGoogleMaps.json"
       ]
     },
     {
@@ -61,7 +61,7 @@
         "forms",
         "GoogleMaps",
         "Elements",
-        "btnBack2.json"
+        "btnbackGoogleMaps.json"
       ]
     }
   ],

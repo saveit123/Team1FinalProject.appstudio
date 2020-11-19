@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnChangeCalendar",
-  "left": 10,
+  "left": 4,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 319,
-  "value": "Calendar",
-  "width": 84
+  "top": 276,
+  "value": "UpComing Events",
+  "width": 156
 }

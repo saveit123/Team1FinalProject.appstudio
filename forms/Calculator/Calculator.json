@@ -16,7 +16,7 @@
         "forms",
         "Calculator",
         "Elements",
-        "btnNext5.json"
+        "btntransactionBack.json"
       ]
     },
     {
@@ -124,7 +124,7 @@
         "forms",
         "Calculator",
         "Elements",
-        "Image9.json"
+        "calcImage.json"
       ]
     },
     {

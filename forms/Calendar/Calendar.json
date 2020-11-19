@@ -16,7 +16,7 @@
         "forms",
         "Calendar",
         "Elements",
-        "HTMLview1.json"
+        "calendarView.json"
       ]
     },
     {
@@ -25,7 +25,7 @@
         "forms",
         "Calendar",
         "Elements",
-        "Image6Copy.json"
+        "imageCalendar.json"
       ]
     },
     {
@@ -34,7 +34,7 @@
         "forms",
         "Calendar",
         "Elements",
-        "btnCalendarBack.json"
+        "hbCalendar.json"
       ]
     }
   ],

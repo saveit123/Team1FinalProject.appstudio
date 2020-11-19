@@ -70,7 +70,7 @@
         "forms",
         "Home",
         "Elements",
-        "Image1.json"
+        "homeImage.json"
       ]
     },
     {
@@ -79,7 +79,7 @@
         "forms",
         "Home",
         "Elements",
-        "hmChange.json"
+        "hbHome.json"
       ]
     }
   ],

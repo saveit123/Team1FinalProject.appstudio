@@ -119,3 +119,7 @@ cmdDivide.onclick = function() {
 btnBackCalc.onclick=function(){
   ChangeForm(Home)
 }
+
+btntransactionBack.onclick=function(){
+  ChangeForm(Transaction)
+}
