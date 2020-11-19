@@ -12,8 +12,8 @@
   "expanded_pmp": null,
   "height": 44,
   "hidden": "",
-  "id": "Image9",
-  "left": 268,
+  "id": "imageGoals",
+  "left": 270,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -32,6 +32,6 @@
   "script": "",
   "src": "images/294-512.png",
   "style": "",
-  "top": 16,
+  "top": 12,
   "width": 44
 }

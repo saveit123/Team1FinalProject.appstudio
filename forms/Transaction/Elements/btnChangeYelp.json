@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnChangeYelp",
-  "left": 210,
+  "left": 4,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 320,
-  "value": "Yelp",
-  "width": 99
+  "top": 322,
+  "value": "New Eats!",
+  "width": 157
 }

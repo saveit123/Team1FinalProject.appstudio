@@ -55,7 +55,7 @@ txtCurrentBalance.value = currentBalance
 
 }
 
-Button1.onclick=function(){
+btnbackBalance.onclick=function(){
   ChangeForm(Home)
 }
 

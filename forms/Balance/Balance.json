@@ -34,7 +34,7 @@
         "forms",
         "Balance",
         "Elements",
-        "Image4.json"
+        "imageBalance.json"
       ]
     },
     {
@@ -43,7 +43,7 @@
         "forms",
         "Balance",
         "Elements",
-        "Button1.json"
+        "btnbackBalance.json"
       ]
     },
     {
@@ -52,7 +52,7 @@
         "forms",
         "Balance",
         "Elements",
-        "Label1.json"
+        "lblBalance.json"
       ]
     }
   ],

@@ -151,7 +151,18 @@ document
         popupInst.show();
     }, false);
 
-    
-btnCalendarBack.onclick=function(){
-  ChangeForm(Home)
+hbCalendar.onclick=function(s){
+              console.log(s)      
+    if (typeof(s) == "object") {
+       return
+    } else {
+       switch(s) {
+        case "Home":
+        ChangeForm(Home)
+          break
+      case "Transaction":
+      ChangeForm(Transaction)
+      break
+   }
+}
 }

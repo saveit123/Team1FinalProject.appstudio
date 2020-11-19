@@ -113,7 +113,6 @@ console.log(req.status)
 }
 }
 
-
-btnBack1.onclick=function(){
+btngoalsBack.onclick=function(){
   ChangeForm(Home)
 }

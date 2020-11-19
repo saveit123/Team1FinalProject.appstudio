@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnChangeGoogle",
-  "left": 211,
+  "left": 173,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 365,
-  "value": "Google Maps",
-  "width": 100
+  "top": 325,
+  "value": "New Places!",
+  "width": 136
 }

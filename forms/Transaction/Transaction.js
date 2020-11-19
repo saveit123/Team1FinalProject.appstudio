@@ -158,11 +158,6 @@ txtBalance.value = currentBalance
 
 }
 
-
-Button3.onclick=function(){
-  ChangeForm(Home)
-}
-
 /*
 selTransaction.onchange = function(s) {
  if (typeof(s) == "object") {
@@ -210,4 +205,8 @@ btnChangeCalendar.onclick=function(){
 
 btnChangeGoogle.onclick=function(){
   ChangeForm(GoogleMaps)
+}
+
+btnbackTran.onclick=function(){
+  ChangeForm(Home)
 }

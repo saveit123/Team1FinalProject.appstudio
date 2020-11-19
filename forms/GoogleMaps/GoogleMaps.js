@@ -27,6 +27,10 @@ btnSearchGoogleMaps.onclick = function() {
 }
 
 
-btnBack2.onclick=function(){
-  ChangeForm(Home)
+btnBacktoTransaction.onclick=function(){
+  ChangeForm(Transaction)
+}
+
+btnbackGoogleMaps.onclick=function(){
+  ChangeForm(GoogleMaps)
 }

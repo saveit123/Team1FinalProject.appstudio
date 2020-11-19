@@ -36,9 +36,9 @@ console.log(req.status)
     console.log("Error: " + req.status);
   }
 
-
 */
-hmChange.onclick=function(s){
+
+hbHome.onclick=function(s){
    if (typeof(s) == "object") {
         return;
     }
