@@ -35,7 +35,7 @@
   "mLeft": "",
   "mRight": "",
   "mTop": "",
-  "onclick": "Button1.onclick()",
+  "onclick": "btnbackBalance.onclick()",
   "onmousedown": "",
   "onmousemove": "",
   "onmouseout": "",

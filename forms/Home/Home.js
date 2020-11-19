@@ -43,23 +43,23 @@ hbHome.onclick=function(s){
         return;
     }
     if (s === "Goals") {
-        Hamburger1.hide();
+        hbHome.hide();
         Goals.show();
     }
     if (s === "Transaction") {
-      Hamburger1.hide();
+      hbHome.hide();
       Transaction.show();
     }
     if (s === "Balance") {
-    Hamburger1.hide();
+   hbHome.hide();
     Balance.show();
     }
     if (s === "Calculator") {
-    Hamburger1.hide();
+    hbHome.hide();
     Calculator.show();
     }
       if (s === "Calendar") {
-      Hamburger1.hide();
+     hbHome.hide();
       Calendar.show();
     }
 };
