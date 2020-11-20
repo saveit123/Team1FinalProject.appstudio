@@ -158,37 +158,6 @@ txtBalance.value = currentBalance
 
 }
 
-/*
-selTransaction.onchange = function(s) {
- if (typeof(s) == "object") {
-    return
-    console.log(s)
-  } else { 
-   selTransaction.value = s // make dropdown show the choice the user made
-    console.log(s)
-    switch(s) {
-  case 0:
-    ChangeForm(Home)
-    break;
-  case 1:
-    ChangeForm(Calculator)
-    break;
-  case 2:
-    ChangeForm(Calendar)
-    break;
-case 3:
-  ChangeForm(GoogleMaps)
-  break;
-  default:
-  return
-  console.log("make a selection")
-  }
-  } 
-
-}
-
-
-*/
 
 
 btnChangeYelp.onclick=function(){

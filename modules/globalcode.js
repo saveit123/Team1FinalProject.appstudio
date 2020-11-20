@@ -4,10 +4,10 @@ let userName = "kmh76825"
 let req = ""
 let query = ""
 let results = ""
-var valid =  false;
+var valid = false;
 
 let goalsMonth = ['']
-let goalsWeek= ['']
+let goalsWeek = ['']
 let currentGoal = ""
 let newGoal = ""
 let currentBalance = ""
